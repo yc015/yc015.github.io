@@ -4,5 +4,3 @@ gem "dotenv"
 gem "github-pages"
 gem "jekyll"
 gem "jekyll-github-metadata"
-
-gem "jekyll-remote-theme"
