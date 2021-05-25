@@ -117,6 +117,7 @@ google-analytics:
 ### END OF VALUES YOU SHOULD CHANGE ###
 
 plugins:
+  - "jekyll-remote-theme"
   - "jekyll-github-metadata"
 
 exclude:
