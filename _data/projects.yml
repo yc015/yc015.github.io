@@ -13,21 +13,29 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: project X
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Full-Heartbeat Echocardiography Video Segmentation
+  descr: "We aim to further improve the accuracy and applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Besides incorporating additional information from ES to ED phase, we wish to replace the 3D convolution layers with the R2 + 1D spatio-temporal convolutions, which show improved performance on the action recognition in video analysis."
   tags:
-    - tag: MongoDB
-    - tag: Express
-    - tag: AngularJS
-    - tag: Node
+    - tag: Ongoing
+    - tag: PyTorch
+    - tag: Scikit-Image
+    - tag: OpenCV
 
-- name: project Y
-  descr: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam"
-  demo: https://example.com/
+- name: Joint Motion Tracking and Video Segmentation of Echocardiography
+  descr: "We trained a 3D-UNet to segment and predict the motion of heart structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RXT graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improve the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video."
+  demo: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf
+  tags:
+    - tag: PyTorch
+    - tag: Scikit-Image
+    - tag: OpenCV
+
+- name: KALMUS, tools for color analysis of films
+  descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. "
+  demo: https://joss.theoj.org/papers/10.21105/joss.03156
   tags:
     - tag: Python
-    - tag: Django
-
-- name: project Z
-  descr: "You can also set a project without demo link and no tags"
+    - tag: OpenCV
+    - tag: Scikit-Image
+    - tag: tkinter
+    - tag: PyPI package
+    - tag: Open-source (MIT-License)

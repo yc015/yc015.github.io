@@ -15,10 +15,10 @@
   weight: 2
 
 - name: Codecov
-  weight: 2
+  weight: 1
 
 - name: PyCharm
   weight: 3
 
 - name: Intellij
-  weight: 3
+  weight: 2

@@ -18,19 +18,18 @@
 #   timeline-side: right
 
 - title: Bucknell University
-  title-url: https://example.com/
+  title-url: https://scholar.google.com/citations?user=PptmLrYAAAAJ&hl=en
   date: June 2021 - Present
   subtitle: HTIP Fellow for Echocardiography Video Segmentation Project
   tags:
     - tag: PyTorch
     - tag: Scikit-Learn
-    - tag: Scikit-Image
     - tag: Matplotlib
     - tag: Python
   timeline-side: right
 
 - title: Bucknell University, Res Ed
-  title-url: https://example.com/
+  title-url: https://www.bucknell.edu/life-bucknell/housing-services/residential-education
   date: Aug. 2020 - Dec. 2020
   subtitle: Residential Advisor
   tags:
@@ -39,36 +38,34 @@
   timeline-side: left
 
 - title: Bucknell University
-  title-url: https://example.com/
+  title-url: https://doi.org/10.1117/12.2580874
   date: June 2020 - May 2021
-  subtitle: HTIP Fellow for Joint Motion Tracking & Echocardiography Segmentation Project
+  subtitle: HTIP research fellow for joint motion tracking & echocardiography segmentation project.
   tags:
     - tag: PyTorch
     - tag: Scikit-Learn
-    - tag: Scikit-Image
     - tag: Matplotlib
     - tag: Python
   timeline-side: right
 
 - title: Bucknell University
-  title-url: https://example.com/
+  title-url: https://joss.theoj.org/papers/10.21105/joss.03156
   date: Aug. 2019 - May 2020
-  subtitle: Mellon Academic Year Research Fellow for Film Color Analysis
+  subtitle: Mellon academic year research fellow for Film Color Analysis. Built a tool, KALMUS, for quantitative color analysis in film production.
   tags:
     - tag: OpenCV
     - tag: Scikit-Image
-    - tag: Scikit-Learn
     - tag: GitHub CI
     - tag: Codecov
     - tag: Python
   timeline-side: right
 
 - title: Bucknell University
-  title-url: https://example.com/
+  title-url: https://www.bucknell.edu/
   date: 2018 - 2022
   subtitle: B.S. Computer Science and Engineering
   tags:
-    - tag: Prolog
+    - tag: C++
     - tag: Haskell
     - tag: Andriod
     - tag: JavaFX

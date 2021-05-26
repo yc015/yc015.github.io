@@ -17,20 +17,14 @@
 - name: Ruby
   weight: 1
 
-- name: Prolog
-  weight: 1
-
 - name: C++
   weight: 4
 
-- name: C#
-  weight: 2
-
 - name: LaTeX
-  weight: 3
+  weight: 2
 
 - name: XML
-  weight: 2
+  weight: 1
 
 - name: Bash
   weight: 2

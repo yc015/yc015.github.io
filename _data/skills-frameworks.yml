@@ -15,7 +15,7 @@
   weight: 2
 
 - name: Scikit-Learn
-  weight: 5
+  weight: 4
 
 - name: Scikit-Image
   weight: 3
@@ -24,7 +24,7 @@
   weight: 5
 
 - name: Pandas
-  weight: 4
+  weight: 3
 
 - name: OpenCV
   weight: 4
@@ -35,8 +35,8 @@
 - name: PIL
   weight: 1
 
-- name: flask
-  weight: 1
+- name: JavaFX
+  weight: 4
 
 - name: pytest
-  weight: 3
+  weight: 2
