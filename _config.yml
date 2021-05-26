@@ -55,7 +55,7 @@ show_timeline_card: true
 timeline_title: My journey so far... &#128760
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
-cv_download_link: https://example.com/
+cv_download_link: https://docs.google.com/uc?export=download&id=1RRE5ivlmyc3-NM1Wuw-nvpMir4aZWjV9
 
 # PROJECTS SECTION
 # show_projects_card:
