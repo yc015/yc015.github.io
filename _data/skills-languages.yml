@@ -18,7 +18,7 @@
   weight: 1
 
 - name: C++
-  weight: 4
+  weight: 3
 
 - name: LaTeX
   weight: 2

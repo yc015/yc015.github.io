@@ -22,7 +22,7 @@
     - tag: OpenCV
 
 - name: Joint Motion Tracking and Video Segmentation of Echocardiography
-  descr: "We trained a 3D-UNet to segment and predict the motion of heart structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RXT graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improve the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video."
+  descr: "We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='2ch_video_segmentation' width='164' height='164'>"
   demo: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf
   tags:
     - tag: PyTorch
@@ -30,7 +30,7 @@
     - tag: OpenCV
 
 - name: KALMUS, tools for color analysis of films
-  descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. "
+  descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/kalmus_gui.png' alt='kalmus_gui' height='164'>"
   demo: https://github.com/KALMUS-Color-Toolkit/KALMUS
   tags:
     - tag: Python
