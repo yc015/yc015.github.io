@@ -6,7 +6,7 @@
 # title: This will be displayed as the website's name in your browser tab.
 title: Yida Chen
 # description: This will be meta HTML tag content. This can be ignored.
-description: Personal website powered by Jekyll
+description: Yida Chen's website powered by Jekyll
 # baseurl: The subpath of your site
 # > set this to "", if you renamed the repository to <user>.github.io
 baseurl: ""
@@ -36,7 +36,7 @@ show_aboutme_card: true
 # about_me_title: Yida Chen
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I am an undergraduate computer science student at Bucknell University. My recent project is about the echocardiography video segmentation using convolutional neural network, 3D-UNet. The project is sponsored by the Ciffolillo Healthcare Technology Innovative Programm (HTIP). The project's <a class="highlight-link" href="https://doi.org/10.1117/12.2580874" target="_blank" rel="noreferrer"> paper</a>, Assessing the generalizability of temporally coherent echocardiography video segmentation, is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. I am also the project maintainer for KALMUS, a color analysis tool for film studies. You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded by the Bucknell Humanities center.
+about_me_description: <p> I am an undergraduate computer science student at Bucknell University. &#128214 </p> <p> My recent project is about the echocardiography video segmentation using convolutional neural network, 3D-UNet. &#129505 The project is sponsored by the Ciffolillo Healthcare Technology Innovative Programm (HTIP). &#127973 The project's <a class="highlight-link" href="https://doi.org/10.1117/12.2580874" target="_blank" rel="noreferrer"> paper</a>, Assessing the generalizability of temporally coherent echocardiography video segmentation, is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. &#128221 </p> <p> I am also the project maintainer for KALMUS, a color analysis tool for film studies. &#127916 You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities center.  </p>
 
 # SKILLS SECTION
 # show_skills_card:
@@ -52,7 +52,7 @@ skills_title: Skills
 # > setting this to false, will omit the Timeline section
 show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
-timeline_title: Education & Experience
+timeline_title: My journey so far... &#128760
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: https://example.com/
@@ -83,7 +83,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact
 # contact_description: This will be displayed under the title.
-contact_description: Thank you so much for visiting my website. If you have any questions or are interest in corporation, please contact me via the email, yc015@bucknell.edu. The source code of this website can be found in my <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer"> GitHub Repo </a>.
+contact_description: Thank you so much for visiting my website! If you have any questions or are interest in corporation, please contact me via the email, yc015@bucknell.edu. The source code of this website can be found in my <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer"> GitHub Repo </a>.
 
 # GITHUB-METADATA
 # Set this to your forked repository

@@ -31,7 +31,7 @@
 
 - name: KALMUS, tools for color analysis of films
   descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. "
-  demo: https://joss.theoj.org/papers/10.21105/joss.03156
+  demo: https://github.com/KALMUS-Color-Toolkit/KALMUS
   tags:
     - tag: Python
     - tag: OpenCV
