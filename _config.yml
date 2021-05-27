@@ -44,7 +44,7 @@ about_me_description: <p> I am an undergraduate computer science student at Buck
 # > setting this to false, will omit the Skills section
 show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
-skills_title: Skills
+skills_title: Skills &#129338
 
 # TIMELINE SECTION
 # show_timeline_card:
@@ -67,13 +67,13 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Projects
+projects_title: Bulletin Board &#128203
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
 show_os_projects: true
 # os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: Open Source Projects
+os_projects_title: Open Source Projects &#128187
 
 # CONTACT SECTION
 # show_contact_card:
@@ -81,9 +81,9 @@ os_projects_title: Open Source Projects
 # > setting this to false, will omit the Contact section
 show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
-contact_title: Contact
+contact_title: Contact &#128234
 # contact_description: This will be displayed under the title.
-contact_description: Thank you so much for visiting my website! If you have any questions or are interest in corporation, please contact me via the email, yc015@bucknell.edu. The source code of this website can be found in my <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer"> GitHub Repo </a>.
+contact_description: 'Thank you so much for visiting my website! If you have any questions or are interest in corporation, please contact me via the email, <a class="highlight-link" href="mailto:yc015@bucknell.edu"> yc015@bucknell.edu </a>. <a href="mailto:yc015@bucknell.edu"> &#128231 </a> The source code of this website can be found in my <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer"> GitHub Repo </a>.'
 
 # GITHUB-METADATA
 # Set this to your forked repository
@@ -102,7 +102,7 @@ projects:
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories
-    forks: true
+    forks: false
     # projects: A list of the repository names you want to exclude from the listing.
     projects:
     # - repo1-to-be-excluded
