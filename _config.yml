@@ -36,7 +36,7 @@ show_aboutme_card: true
 # about_me_title: Yida Chen
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: <p> I am an undergraduate computer science student at Bucknell University. &#128214 </p> <p> My recent project is about echocardiography video segmentation using a convolutional neural network, 3D-UNet. &#129505 The project is sponsored by the Ciffolillo Healthcare Technology Innovative Program (HTIP). &#127973 The project's <a class="highlight-link" href="https://doi.org/10.1117/12.2580874" target="_blank" rel="noreferrer"> paper</a>, Assessing the generalizability of temporally coherent echocardiography video segmentation, is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. &#128221 </p> <p> I am also the project maintainer for KALMUS, a color analysis tool for film studies. &#127916 You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities center.  </p>
+about_me_description: <p> I am an undergraduate computer science student at Bucknell University. &#128214 </p> <p> My recent project is about echocardiography video segmentation using a convolutional neural network, 3D-UNet. &#129505 The project is sponsored by the Ciffolillo Healthcare Technology Inventors Program (HTIP). &#127973 The project's <a class="highlight-link" href="https://doi.org/10.1117/12.2580874" target="_blank" rel="noreferrer"> paper</a>, Assessing the generalizability of temporally coherent echocardiography video segmentation, is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. &#128221 </p> <p> I am also the project maintainer for KALMUS, a color analysis tool for film studies. &#127916 You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities center.  </p>
 
 # SKILLS SECTION
 # show_skills_card:
@@ -98,7 +98,7 @@ projects:
     # archived:
     # > setting this to true, will exclude archived repositories
     # > setting this to false, will also display archived repositories
-    archived: true
+    archived: false
     # forks:
     # > setting this to true, will exclude forked repositories
     # > setting this to false, will also display forked repositories
