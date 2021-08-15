@@ -55,6 +55,7 @@
   tags:
     - tag: OpenCV
     - tag: Scikit-Image
+    - tag: Matplotlib
     - tag: GitHub CI
     - tag: Codecov
     - tag: Python

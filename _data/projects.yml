@@ -14,19 +14,22 @@
 #     - tag: Node
 
 - name: Spatio-temporally Coherent Full-Heartbeat Echocardiography Video Segmentation
-  descr: "We aim to further improve the accuracy and applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Besides incorporating additional information from ES to ED phase, we wish to replace the 3D convolution layers with the R2 + 1D spatio-temporal convolutions, which show improved performance on the action recognition in video analysis."
+  descr: "We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Uisng semi-supervised deep learning, we proposed a fully automated neural network-based video segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'>"
   tags:
     - tag: Ongoing
     - tag: PyTorch
-    - tag: Scikit-Image
+    - tag: Scikit-Learn
+    - tag: Matplotlib
     - tag: OpenCV
 
 - name: Joint Motion Tracking and Video Segmentation of Echocardiography
-  descr: "We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='2ch_video_segmentation' width='164' height='164'>"
+  descr: "We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='4ch_video_segmentation' width='164' height='164'>"
   demo: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf
   tags:
     - tag: PyTorch
     - tag: Scikit-Image
+    - tag: Scikit-Learn
+    - tag: Matplotlib
     - tag: OpenCV
 
 - name: KALMUS, tools for color analysis of films

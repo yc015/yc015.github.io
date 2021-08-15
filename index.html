@@ -101,7 +101,7 @@
     
       <section class="card neumorphism-card-big">
         <h1 class="title">About Me</h1>
-<p class="description" data-aos="fade-down"><p> I am an undergraduate computer science student at Bucknell University. &#128214 </p> <p> My recent project is about echocardiography video segmentation using a convolutional neural network, 3D-UNet. &#129505 The project is sponsored by the Ciffolillo Healthcare Technology Inventors Program (HTIP). &#127973 The project's <a class="highlight-link" href="https://doi.org/10.1117/12.2580874" target="_blank" rel="noreferrer"> paper</a>, Assessing the generalizability of temporally coherent echocardiography video segmentation, is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. &#128221 </p> <p> I am also the project maintainer for KALMUS, a color analysis tool for film studies. &#127916 You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities center.  </p></p>
+<p class="description" data-aos="fade-down"><p> I am a senior undergraduate computer science student at Bucknell University. &#128214 </p> <p> My recent project is about automating the video-based semantic segmentation on sparsely annotated echocardiogram using semi-supervised deep learning. &#129505 The project is sponsored by the Ciffolillo Healthcare Technology Inventors Program. I am advised by Prof. Joshua Stough (Bucknell University, <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/research.html" target="_blank" rel="noreferrer"> webpage </a>) and Prof. Christopher Haggerty (Geisinger, <a class="highlight-link" href="https://www.geisinger.edu/research/research-at-geisinger/find-an-investigator/2018/04/04/13/27/christopher-m-haggerty" target="_blank" rel="noreferrer"> webpage </a>). &#127891 </p> <p> My past project focused on assessing the generalizability of neural network-based video segmentation on clinical echocardiography. &#128202 The project was sponsored by the Ciffolillo Healthcare Technology Inventors Program (HTIP). &#127973 The project's <a class="highlight-link" href="https://doi.org/10.1117/12.2580874" target="_blank" rel="noreferrer"> paper</a>, "Assessing the generalizability of temporally coherent echocardiography video segmentation", is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. &#128221 </p> <p> I am also the project maintainer for KALMUS, a color analysis tool for film studies. &#127916 You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities center.  </p></p>
 
       </section>
     
@@ -380,6 +380,8 @@
                   
                     <span class="tag neumorphism-card">Scikit-Image</span>
                   
+                    <span class="tag neumorphism-card">Matplotlib</span>
+                  
                     <span class="tag neumorphism-card">GitHub CI</span>
                   
                     <span class="tag neumorphism-card">Codecov</span>
@@ -444,7 +446,7 @@
         <div class="name-link-wrapper">
           <h3>Spatio-temporally Coherent Full-Heartbeat Echocardiography Video Segmentation</h3>
         </div>
-        <p class="project-desc">We aim to further improve the accuracy and applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Besides incorporating additional information from ES to ED phase, we wish to replace the 3D convolution layers with the R2 + 1D spatio-temporal convolutions, which show improved performance on the action recognition in video analysis.</p>
+        <p class="project-desc">We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Uisng semi-supervised deep learning, we proposed a fully automated neural network-based video segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'></p>
         
         
           <div class="tag-wrapper">
@@ -453,7 +455,9 @@
             
               <span class="tag neumorphism-card">PyTorch</span>
             
-              <span class="tag neumorphism-card">Scikit-Image</span>
+              <span class="tag neumorphism-card">Scikit-Learn</span>
+            
+              <span class="tag neumorphism-card">Matplotlib</span>
             
               <span class="tag neumorphism-card">OpenCV</span>
             
@@ -465,7 +469,7 @@
         <div class="name-link-wrapper">
           <h3>Joint Motion Tracking and Video Segmentation of Echocardiography</h3>
         </div>
-        <p class="project-desc">We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='2ch_video_segmentation' width='164' height='164'></p>
+        <p class="project-desc">We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='4ch_video_segmentation' width='164' height='164'></p>
         
           <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf" target="_blank" rel="noreferrer">
             Demo
@@ -477,6 +481,10 @@
               <span class="tag neumorphism-card">PyTorch</span>
             
               <span class="tag neumorphism-card">Scikit-Image</span>
+            
+              <span class="tag neumorphism-card">Scikit-Learn</span>
+            
+              <span class="tag neumorphism-card">Matplotlib</span>
             
               <span class="tag neumorphism-card">OpenCV</span>
             
@@ -527,33 +535,31 @@
       
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
-            <h3>KALMUS-JOSS-release-1.3.9</h3>
+            <h3>Ruby-Inspect</h3>
             <div class="links">
               
                 
             </div>
           </div>
-          <p class="project-desc">KALMUS Color Toolkit for color analysis and visualization in film studies. Archived JOSS release of the software, v1.3.9. doi: 10.21105/joss.03156.</p>
+          <p class="project-desc">Ruby Inspect: online study notes of the programming language Ruby</p>
           
-            <a class="highlight-link" href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer">
+            <a class="highlight-link" href="https://yc015.github.io/Ruby-Inspect/" target="_blank" rel="noreferrer">
               Demo
             </a>
           
-          <a class="highlight-link" href="https://github.com/yc015/KALMUS-JOSS-release-1.3.9" target="_blank" rel="noreferrer">
+          <a class="highlight-link" href="https://github.com/yc015/Ruby-Inspect" target="_blank" rel="noreferrer">
             Github
           </a>
           
             <div class="tag-wrapper">
               
-                <span class="tag neumorphism-card">python3</span>
+                <span class="tag neumorphism-card">ruby</span>
               
-                <span class="tag neumorphism-card">video-processing</span>
+                <span class="tag neumorphism-card">book</span>
               
-                <span class="tag neumorphism-card">digital-humanities</span>
+                <span class="tag neumorphism-card">tutorials</span>
               
-                <span class="tag neumorphism-card">image-analysis</span>
-              
-                <span class="tag neumorphism-card">pypi-package</span>
+                <span class="tag neumorphism-card">tutorial-code</span>
               
             </div>
           
@@ -595,35 +601,39 @@
       
         <div class="project neumorphism-card" data-aos="zoom-in-down">
           <div class="name-link-wrapper">
-            <h3>Ruby-Inspect</h3>
+            <h3>KALMUS-JOSS-release-1.3.9</h3>
             <div class="links">
               
                 
             </div>
           </div>
-          <p class="project-desc">Ruby Inspect: a comprehensive review of the programming language Ruby</p>
+          <p class="project-desc">KALMUS Color Toolkit for color analysis and visualization in film studies. Archived JOSS release of the software, v1.3.9. doi: 10.21105/joss.03156.</p>
           
-            <a class="highlight-link" href="https://yc015.github.io/Ruby-Inspect/" target="_blank" rel="noreferrer">
+            <a class="highlight-link" href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer">
               Demo
             </a>
           
-          <a class="highlight-link" href="https://github.com/yc015/Ruby-Inspect" target="_blank" rel="noreferrer">
+          <a class="highlight-link" href="https://github.com/yc015/KALMUS-JOSS-release-1.3.9" target="_blank" rel="noreferrer">
             Github
           </a>
           
             <div class="tag-wrapper">
               
-                <span class="tag neumorphism-card">ruby</span>
+                <span class="tag neumorphism-card">python3</span>
               
-                <span class="tag neumorphism-card">book</span>
+                <span class="tag neumorphism-card">video-processing</span>
               
-                <span class="tag neumorphism-card">tutorials</span>
+                <span class="tag neumorphism-card">digital-humanities</span>
               
-                <span class="tag neumorphism-card">tutorial-code</span>
+                <span class="tag neumorphism-card">image-analysis</span>
+              
+                <span class="tag neumorphism-card">pypi-package</span>
               
             </div>
           
         </div>
+      
+    
       
     
   </div>
@@ -697,7 +707,7 @@
   </p>
   <p>
     Theme is Designed & Developed by
-    <a class="highlight-link" href="https://longpdo.github.io/" target="_blank" rel="noreferrer">
+    <a class="highlight-link" href="https://github.com/longpdo" target="_blank" rel="noreferrer">
       Long Do
     </a>
   </p>
