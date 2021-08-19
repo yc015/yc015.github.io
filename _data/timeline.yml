@@ -17,15 +17,58 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: SPIE Medical Imaging 2022
+  title-url: https://spie.org/conferences-and-exhibitions/medical-imaging?SSO=1
+  date: August 2021
+  subtitle: Our work, "Fully automated multi-heartbeat echocardiography video segmentation and motion tracking", has been submitted for review.
+  tags:
+    - tag: Under Review
+    - tag: SPIE Medical Imaging
+    - tag: HTIP
+  timeline-side: right
+
 - title: Bucknell University
   title-url: https://scholar.google.com/citations?user=PptmLrYAAAAJ&hl=en
   date: June 2021 - Present
-  subtitle: HTIP research fellow for spatio-temporally coherent full-heartbeat echocardiography video segmentation project
+  subtitle: HTIP research fellow for fully automated multi-heartbeat echocardiography video segmentation project
   tags:
     - tag: PyTorch
     - tag: Scikit-Learn
     - tag: Matplotlib
     - tag: Python
+  timeline-side: left
+
+- title: Journal of Open Source Software
+  title-url: https://joss.theoj.org/papers/10.21105/joss.03156
+  date: May 2021
+  subtitle: '<p style="text-align:left;"> Our paper, "KALMUS: tools for color analysis of films", has been published on the Journal of Open Source Software! Our manuscript is open access, and you can find it here: <a class="highlight-link" href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer"> link.</a> </p> <p style="text-align:left;"> The GitHub repo of associated Python package, KALMUS, is here: <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> link.</a> </p> <p style="text-align:left;"> For installation instruction and detailed usage guide, please refer to the KALMUS <a class="highlight-link" href="https://kalmus-color-toolkit.github.io/KALMUS/" target="_blank" rel="noreferrer">documentation page.</a> </p>'
+  tags:
+    - tag: Published
+    - tag: JOSS
+    - tag: Open Access
+    - tag: KALMUS
+    - tag: Python Package
+  timeline-side: right
+
+- title: SPIE Medical Imaging 2021
+  title-url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115961O/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1
+  date: Feb. 2020
+  subtitle: '<p style="text-align:left;"> Our paper, "Assessing the generalizability of temporally-coherent echocardiography video segmentation", has been published at SPIE Medical Imaging: Image processing 2021 conference! </p> <p style="text-align:left;">  You can find the manuscript here: <a class="highlight-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115961O/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1" target="_blank" rel="noreferrer"> link.</a> <br> The presentation slides are available here: <a class="highlight-link" href="https://drive.google.com/file/d/18_zPcgfoXvp0lLeViPji-AzFnFDlTWJ5/view?usp=sharing" target="_blank" rel="noreferrer"> link.</a> </p>'
+  tags:
+    - tag: Published
+    - tag: SPIE
+    - tag: Oral Presentation
+    - tag: Ei Compendex
+  timeline-side: left
+
+- title: SPIE Medical Imaging 2021
+  title-url: https://spie.org/conferences-and-exhibitions/medical-imaging
+  date: Otc. 2020
+  subtitle: '<p> Our paper, "Assessing the generalizability of temporally-coherent echocardiography video segmentation", has been accepted for an oral presentation by SPIE Medical Imaging: Image processing 2021 conference!</p> <p>The preprint of paper is available here: <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf" target="_blank" rel="noreferrer"> link.</a> </p>'
+  tags:
+    - tag: Accepted
+    - tag: SPIE
+    - tag: Oral Presentation
   timeline-side: right
 
 - title: Bucknell University, Res Ed
@@ -50,7 +93,7 @@
 
 - title: Bucknell University
   title-url: https://joss.theoj.org/papers/10.21105/joss.03156
-  date: Aug. 2019 - May 2020
+  date: Aug. 2019 - May 2021
   subtitle: Mellon academic year research fellow for Film Color Analysis. Built a tool, KALMUS, for quantitative color analysis in film production.
   tags:
     - tag: OpenCV
@@ -69,5 +112,6 @@
     - tag: C++
     - tag: Haskell
     - tag: Andriod
+    - tag: Java
     - tag: JavaFX
   timeline-side: left
