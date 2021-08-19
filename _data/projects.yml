@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Spatio-temporally Coherent Full-Heartbeat Echocardiography Video Segmentation
-  descr: "We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Uisng semi-supervised deep learning, we proposed a fully automated neural network-based video segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'>"
+  descr: "We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based video segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'>"
   tags:
     - tag: Ongoing
     - tag: PyTorch
