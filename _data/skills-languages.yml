@@ -12,7 +12,7 @@
   weight: 5
 
 - name: Haskell
-  weight: 3
+  weight: 2
 
 - name: Ruby
   weight: 1
@@ -23,11 +23,11 @@
 - name: LaTeX
   weight: 2
 
-- name: XML
-  weight: 1
+- name: MATLAB
+  weight: 2
 
 - name: Bash
-  weight: 2
+  weight: 1
 
 - name: SQLite
   weight: 2

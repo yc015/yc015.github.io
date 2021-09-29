@@ -17,6 +17,9 @@
 - name: Matplotlib
   weight: 2
 
+- name: seaborn
+  weight: 1
+
 - name: Scikit-Learn
   weight: 4
 
