@@ -13,8 +13,8 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Spatio-temporally Coherent Full-Heartbeat Echocardiography Video Segmentation
-  descr: "We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based video segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'>"
+- name: Fully Automated Full-Video Multi-heartbeat Echocardiography Segmentation
+  descr: "We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to multi-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'>"
   tags:
     - tag: Ongoing
     - tag: PyTorch
@@ -32,7 +32,7 @@
     - tag: Matplotlib
     - tag: OpenCV
 
-- name: KALMUS, tools for color analysis of films
+- name: "KALMUS: tools for color analysis of films"
   descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/kalmus_gui.png' alt='kalmus_gui' height='116'>"
   demo: https://github.com/KALMUS-Color-Toolkit/KALMUS
   tags:

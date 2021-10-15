@@ -37,6 +37,11 @@
         {% include section-aboutme.html %}
       </section>
     {% endif %}
+    {%if site.show_projects_card %}
+      <section class="card neumorphism-card-big">
+        {% include section-projects.html %}
+      </section>
+    {% endif %}
     {%if site.show_skills_card %}
       <section class="card neumorphism-card-big">
         {% include section-skills.html %}
@@ -45,11 +50,6 @@
     {%if site.show_timeline_card %}
       <section class="card neumorphism-card-big">
         {% include section-timeline.html %}
-      </section>
-    {% endif %}
-    {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-projects.html %}
       </section>
     {% endif %}
     {%if site.show_contact_card %}

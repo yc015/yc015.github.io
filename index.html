@@ -101,7 +101,248 @@
     
       <section class="card neumorphism-card-big">
         <h1 class="title">About Me</h1>
-<p class="description" data-aos="fade-down"><p> I am a senior undergraduate computer science student at Bucknell University. &#128214 </p> <p> My recent project is about automating the video-based semantic segmentation on sparsely annotated echocardiogram using supervised deep learning. &#129505 The project is sponsored by the Ciffolillo Healthcare Technology Inventors Program. I am advised by Prof. Joshua Stough (Bucknell University, <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/research.html" target="_blank" rel="noreferrer"> webpage </a>) and Prof. Christopher Haggerty (Geisinger, <a class="highlight-link" href="https://www.geisinger.edu/research/research-at-geisinger/find-an-investigator/2018/04/04/13/27/christopher-m-haggerty" target="_blank" rel="noreferrer"> webpage </a>). &#127891 </p> <p> My past project focused on assessing the generalizability of neural network-based video segmentation on clinical echocardiography. &#128202 The project was sponsored by the Ciffolillo Healthcare Technology Inventors Program (HTIP). &#127973 The project's <a class="highlight-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/2580874/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1" target="_blank" rel="noreferrer"> paper</a>, "Assessing the generalizability of temporally coherent echocardiography video segmentation", is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. &#128221 </p> <p> I am also the project maintainer for KALMUS, a color analysis toolkit for film studies. &#127916 You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities center.  </p></p>
+<p class="description" data-aos="fade-down"><p> I am a senior undergraduate computer science student at Bucknell University. &#128214 </p> <p> My recent project is about automating the video-based semantic segmentation of sparsely annotated echocardiogram using supervised deep learning. &#129505 The project is sponsored by the Ciffolillo Healthcare Technology Inventors Program. I am advised by Prof. Joshua Stough (Bucknell University, <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/research.html" target="_blank" rel="noreferrer"> webpage </a>) and Prof. Christopher Haggerty (Geisinger, <a class="highlight-link" href="https://www.geisinger.edu/research/research-at-geisinger/find-an-investigator/2018/04/04/13/27/christopher-m-haggerty" target="_blank" rel="noreferrer"> webpage </a>). &#127891 </p> <p> My past project focused on assessing the generalizability of neural network-based video segmentation on clinical echocardiography. &#128202 The project was sponsored by the Ciffolillo Healthcare Technology Inventors Program (HTIP). &#127973 The project's <a class="highlight-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/2580874/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1" target="_blank" rel="noreferrer"> paper</a>, "Assessing the generalizability of temporally coherent echocardiography video segmentation", is published on the SPIE Medical Imaging (2021), an international peer-reviewed conference. &#128221 </p> <p> I am also the project maintainer for KALMUS, a color analysis toolkit for film studies. &#127916 You can find the project's GitHub Repo here, <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. The project is supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities center.  </p></p>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        
+  <h1 class="title"><span>Bulletin Board &#128203</span></h1>
+  <div class="projects-wrapper">
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Fully Automated Full-Video Multi-heartbeat Echocardiography Segmentation</h3>
+        </div>
+        <p class="project-desc">We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to multi-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'></p>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">Ongoing</span>
+            
+              <span class="tag neumorphism-card">PyTorch</span>
+            
+              <span class="tag neumorphism-card">Scikit-Learn</span>
+            
+              <span class="tag neumorphism-card">Matplotlib</span>
+            
+              <span class="tag neumorphism-card">OpenCV</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Joint Motion Tracking and Video Segmentation of Echocardiography</h3>
+        </div>
+        <p class="project-desc">We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='4ch_video_segmentation' width='164' height='164'></p>
+        
+          <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">PyTorch</span>
+            
+              <span class="tag neumorphism-card">Scikit-Image</span>
+            
+              <span class="tag neumorphism-card">Scikit-Learn</span>
+            
+              <span class="tag neumorphism-card">Matplotlib</span>
+            
+              <span class="tag neumorphism-card">OpenCV</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>KALMUS: tools for color analysis of films</h3>
+        </div>
+        <p class="project-desc">KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/kalmus_gui.png' alt='kalmus_gui' height='116'></p>
+        
+          <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">Python</span>
+            
+              <span class="tag neumorphism-card">OpenCV</span>
+            
+              <span class="tag neumorphism-card">Scikit-Image</span>
+            
+              <span class="tag neumorphism-card">tkinter</span>
+            
+              <span class="tag neumorphism-card">PyPI package</span>
+            
+              <span class="tag neumorphism-card">Open-source (MIT-License)</span>
+            
+          </div>
+        
+      </div>
+    
+  </div>
+
+
+
+  <h1 class="title">Open Source Projects &#128187</h1>
+  
+
+  
+
+  <div class="projects-wrapper">
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>COVID-19_Radiography_Classification</h3>
+            <div class="links">
+              
+                
+            </div>
+          </div>
+          <p class="project-desc">Kaggle COVID-19 Radiography Classification Project</p>
+          
+            <a class="highlight-link" href="https://drive.google.com/file/d/1pF75LO-PgAaRM1mOg8RhnxQGj5nbmeKc/view?usp=sharing" target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          
+          <a class="highlight-link" href="https://github.com/yc015/COVID-19_Radiography_Classification" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">classification</span>
+              
+                <span class="tag neumorphism-card">covid-19</span>
+              
+                <span class="tag neumorphism-card">deep-learning</span>
+              
+                <span class="tag neumorphism-card">medical-imaging</span>
+              
+                <span class="tag neumorphism-card">radiography</span>
+              
+            </div>
+          
+        </div>
+      
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>yc015.github.io</h3>
+            <div class="links">
+              
+                
+            </div>
+          </div>
+          <p class="project-desc">My personal curriculum vitae website. </p>
+          
+            <a class="highlight-link" href="https://yc015.github.io/" target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          
+          <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">jekyll</span>
+              
+                <span class="tag neumorphism-card">personal-website</span>
+              
+                <span class="tag neumorphism-card">portofolio-website</span>
+              
+            </div>
+          
+        </div>
+      
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>Ruby-Inspect</h3>
+            <div class="links">
+              
+                
+            </div>
+          </div>
+          <p class="project-desc">Ruby Inspect: online study notes of the programming language Ruby</p>
+          
+            <a class="highlight-link" href="https://yc015.github.io/Ruby-Inspect/" target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          
+          <a class="highlight-link" href="https://github.com/yc015/Ruby-Inspect" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">ruby</span>
+              
+                <span class="tag neumorphism-card">tutorial-code</span>
+              
+                <span class="tag neumorphism-card">tutorials</span>
+              
+            </div>
+          
+        </div>
+      
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>KALMUS-JOSS-release-1.3.9</h3>
+            <div class="links">
+              
+                
+            </div>
+          </div>
+          <p class="project-desc">KALMUS Color Toolkit for color analysis and visualization in film studies. Archived JOSS release of the software, v1.3.9. doi: 10.21105/joss.03156.</p>
+          
+            <a class="highlight-link" href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          
+          <a class="highlight-link" href="https://github.com/yc015/KALMUS-JOSS-release-1.3.9" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">digital-humanities</span>
+              
+                <span class="tag neumorphism-card">image-analysis</span>
+              
+                <span class="tag neumorphism-card">pypi-package</span>
+              
+                <span class="tag neumorphism-card">python3</span>
+              
+                <span class="tag neumorphism-card">video-processing</span>
+              
+            </div>
+          
+        </div>
+      
+    
+      
+    
+  </div>
+
+
+
 
       </section>
     
@@ -209,7 +450,7 @@
       JavaFX
     </div>
   
-    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
       pytest
     </div>
   
@@ -581,249 +822,6 @@
     
   </ul>
 </div>
-
-      </section>
-    
-    
-      <section class="card neumorphism-card-big">
-        
-  <h1 class="title"><span>Bulletin Board &#128203</span></h1>
-  <div class="projects-wrapper">
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>Spatio-temporally Coherent Full-Heartbeat Echocardiography Video Segmentation</h3>
-        </div>
-        <p class="project-desc">We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to full-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based video segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. We have submitted the paper about our study to SPIE Medical Imaging 2022: Image Processing Conference. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'></p>
-        
-        
-          <div class="tag-wrapper">
-            
-              <span class="tag neumorphism-card">Ongoing</span>
-            
-              <span class="tag neumorphism-card">PyTorch</span>
-            
-              <span class="tag neumorphism-card">Scikit-Learn</span>
-            
-              <span class="tag neumorphism-card">Matplotlib</span>
-            
-              <span class="tag neumorphism-card">OpenCV</span>
-            
-          </div>
-        
-      </div>
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>Joint Motion Tracking and Video Segmentation of Echocardiography</h3>
-        </div>
-        <p class="project-desc">We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='4ch_video_segmentation' width='164' height='164'></p>
-        
-          <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf" target="_blank" rel="noreferrer">
-            Demo
-          </a>
-        
-        
-          <div class="tag-wrapper">
-            
-              <span class="tag neumorphism-card">PyTorch</span>
-            
-              <span class="tag neumorphism-card">Scikit-Image</span>
-            
-              <span class="tag neumorphism-card">Scikit-Learn</span>
-            
-              <span class="tag neumorphism-card">Matplotlib</span>
-            
-              <span class="tag neumorphism-card">OpenCV</span>
-            
-          </div>
-        
-      </div>
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>KALMUS, tools for color analysis of films</h3>
-        </div>
-        <p class="project-desc">KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/kalmus_gui.png' alt='kalmus_gui' height='116'></p>
-        
-          <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer">
-            Demo
-          </a>
-        
-        
-          <div class="tag-wrapper">
-            
-              <span class="tag neumorphism-card">Python</span>
-            
-              <span class="tag neumorphism-card">OpenCV</span>
-            
-              <span class="tag neumorphism-card">Scikit-Image</span>
-            
-              <span class="tag neumorphism-card">tkinter</span>
-            
-              <span class="tag neumorphism-card">PyPI package</span>
-            
-              <span class="tag neumorphism-card">Open-source (MIT-License)</span>
-            
-          </div>
-        
-      </div>
-    
-  </div>
-
-
-
-  <h1 class="title">Open Source Projects &#128187</h1>
-  
-
-  
-
-  <div class="projects-wrapper">
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>yc015.github.io</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">My personal curriculum vitae website. </p>
-          
-            <a class="highlight-link" href="https://yc015.github.io/" target="_blank" rel="noreferrer">
-              Demo
-            </a>
-          
-          <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-                <span class="tag neumorphism-card">jekyll</span>
-              
-                <span class="tag neumorphism-card">personal-website</span>
-              
-                <span class="tag neumorphism-card">portofolio-website</span>
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>COVID-19_Radiography_Classification</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Kaggle COVID-19 Radiography Classification Project</p>
-          
-            <a class="highlight-link" href="https://drive.google.com/file/d/1pF75LO-PgAaRM1mOg8RhnxQGj5nbmeKc/view?usp=sharing" target="_blank" rel="noreferrer">
-              Demo
-            </a>
-          
-          <a class="highlight-link" href="https://github.com/yc015/COVID-19_Radiography_Classification" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-                <span class="tag neumorphism-card">classification</span>
-              
-                <span class="tag neumorphism-card">covid-19</span>
-              
-                <span class="tag neumorphism-card">deep-learning</span>
-              
-                <span class="tag neumorphism-card">medical-imaging</span>
-              
-                <span class="tag neumorphism-card">radiography</span>
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>Ruby-Inspect</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">Ruby Inspect: online study notes of the programming language Ruby</p>
-          
-            <a class="highlight-link" href="https://yc015.github.io/Ruby-Inspect/" target="_blank" rel="noreferrer">
-              Demo
-            </a>
-          
-          <a class="highlight-link" href="https://github.com/yc015/Ruby-Inspect" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-                <span class="tag neumorphism-card">book</span>
-              
-                <span class="tag neumorphism-card">ruby</span>
-              
-                <span class="tag neumorphism-card">tutorial-code</span>
-              
-                <span class="tag neumorphism-card">tutorials</span>
-              
-            </div>
-          
-        </div>
-      
-    
-      
-        <div class="project neumorphism-card" data-aos="zoom-in-down">
-          <div class="name-link-wrapper">
-            <h3>KALMUS-JOSS-release-1.3.9</h3>
-            <div class="links">
-              
-                
-            </div>
-          </div>
-          <p class="project-desc">KALMUS Color Toolkit for color analysis and visualization in film studies. Archived JOSS release of the software, v1.3.9. doi: 10.21105/joss.03156.</p>
-          
-            <a class="highlight-link" href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer">
-              Demo
-            </a>
-          
-          <a class="highlight-link" href="https://github.com/yc015/KALMUS-JOSS-release-1.3.9" target="_blank" rel="noreferrer">
-            Github
-          </a>
-          
-            <div class="tag-wrapper">
-              
-                <span class="tag neumorphism-card">digital-humanities</span>
-              
-                <span class="tag neumorphism-card">image-analysis</span>
-              
-                <span class="tag neumorphism-card">pypi-package</span>
-              
-                <span class="tag neumorphism-card">python3</span>
-              
-                <span class="tag neumorphism-card">video-processing</span>
-              
-            </div>
-          
-        </div>
-      
-    
-      
-    
-  </div>
-
-
-
 
       </section>
     
