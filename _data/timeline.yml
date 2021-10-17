@@ -18,17 +18,17 @@
 #   timeline-side: right
 
 - title: SPIE Medical Imaging 2022
-  title-url: https://spie.org/conferences-and-exhibitions/medical-imaging?SSO=1
-  date: August 2021
-  subtitle: Our work, "Fully automated multi-heartbeat echocardiography video segmentation and motion tracking", has been submitted for review.
+  title-url: https://spie.org/MI22/conferencedetails/medical-image-processing?enableBackToBrowse=true
+  date: October 2021
+  subtitle: 'Our work, "Fully automated multi-heartbeat echocardiography video segmentation and motion tracking", has accepted for an oral presentation at SPIE Medical Imaging 2022: Image Processing Conference.'
   tags:
-    - tag: Under Review
+    - tag: Accepted
     - tag: SPIE Medical Imaging
-    - tag: HTIP
+    - tag: Oral Presentation
   timeline-side: right
 
 - title: Bucknell University
-  title-url: https://scholar.google.com/citations?user=PptmLrYAAAAJ&hl=en
+  title-url: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/Chen/SPIE22.html
   date: June 2021 - Present
   subtitle: HTIP research fellow for fully automated multi-heartbeat echocardiography video segmentation project
   tags:
