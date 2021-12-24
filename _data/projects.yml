@@ -43,3 +43,12 @@
     - tag: tkinter
     - tag: PyPI package
     - tag: Open-source (MIT-License)
+
+- name: "Stochastic method for optimizing stock trading strategy"
+  descr: "Course Project of Math 343: Numerical Analysis <br> This project implements and extends a stochastic approximation (SA) method proposed by Song et al. [1]. This SA method aims to find an optimal set of buying and selling thresholds for trading a stock. The method assumes the stock has a mean-reversion property so the stock price will oscillate around a long-term average. <br> <br> [1] Q. S. Song, G. Yin, and Q. Zhang, “Numerical methods for buying-low-and-selling-high stock policy,” 2008 American Control Conference, 2008, <a class='highlight-link' href='https://doi.org/10.1109/ACC.2008.4586627' target='_blank' rel='noreferrer'> https://doi.org/10.1109/ACC.2008.4586627 </a> <br> <br> <img src='assets/img/local_stochastic_optimization_stock_trading.png' alt='stochastic_optimization' height='164'>"
+  demo: https://github.com/yc015/stochastic-optimization-of-stock-buying-selling
+  tags:
+    - tag: MATLAB
+    - tag: Stock trading
+    - tag: Stochastic approximation
+    - tag: Open-source (MIT-License)
