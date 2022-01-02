@@ -44,7 +44,7 @@ about_me_description: <p> I am a senior undergraduate computer science student a
 # > setting this to false, will omit the Skills section
 show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
-skills_title: Skills &#129338
+skills_title: Skills <span style="font-weight:normal">&#129338</span>
 
 # TIMELINE SECTION
 # show_timeline_card:
@@ -52,7 +52,7 @@ skills_title: Skills &#129338
 # > setting this to false, will omit the Timeline section
 show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
-timeline_title: My journey so far... &#128760
+timeline_title: My journey so far... <span style="font-weight:normal">&#128760</span>
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: https://docs.google.com/uc?export=download&id=1RRE5ivlmyc3-NM1Wuw-nvpMir4aZWjV9
@@ -67,13 +67,13 @@ show_projects_card: true
 # > setting this to false, will omit your listed projects
 show_projects: true
 # projects_title: The will be displayed as the title of your projects
-projects_title: Bulletin Board &#128203
+projects_title: Bulletin Board <span style="font-weight:normal">&#128203</span>
 # show_os_projects:
 # > setting this to true, will display your public projects on github
 # > setting this to false, will omit your public projects on github
 show_os_projects: true
 # os_projects_title: The will be displayed as the title of your open source projects
-os_projects_title: Open Source Projects &#128187
+os_projects_title: Open Source Projects <span style="font-weight:normal">&#128187</span>
 
 # CONTACT SECTION
 # show_contact_card:
@@ -81,7 +81,7 @@ os_projects_title: Open Source Projects &#128187
 # > setting this to false, will omit the Contact section
 show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
-contact_title: Contact &#128234
+contact_title: Contact <span style="font-weight:normal">&#128234</span>
 # contact_description: This will be displayed under the title.
 contact_description: 'Thank you so much for visiting my website! If you have any questions or are interest in corporation, please contact me via the email, <a class="highlight-link" href="mailto:yc015@bucknell.edu"> yc015@bucknell.edu </a>. <a href="mailto:yc015@bucknell.edu"> &#128231 </a> The source code of this website can be found here <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer"> GitHub Repo </a>.'
 
