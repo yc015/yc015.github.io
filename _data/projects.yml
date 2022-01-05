@@ -15,7 +15,7 @@
 
 - name: Fully Automated Full-Video Multi-heartbeat Echocardiography Segmentation
   descr: "We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to multi-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. Our paper about this project has been accepted for an oral presentation at SPIE Medical Imaging 2022: Image Processing Conference, <a class='highlight-link' href='https://spie.org/medical-imaging/presentation/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/12032-29' target='_blank' rel='noreferrer'> webpage </a>. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'>"
-  demo: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/Chen/chenSPIE22_preprint.pdf
+  demo: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/chenSPIE22_preprint.pdf
   tags:
     - tag: Accepted
     - tag: PyTorch
