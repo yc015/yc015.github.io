@@ -16,6 +16,15 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
+- title: SPIE Medical Imaging 2022
+  title-url: https://spie.org/MI22/conferencedetails/medical-image-processing?enableBackToBrowse=true
+  date: Apr. 2022
+  subtitle: '<p style="text-align:left;"> Our paper, "Fully automated multi-heartbeat echocardiography video segmentation and motion tracking", has been published at the SPIE Medical Imaging 2022: Image Processing Conference. </p> <p style="text-align:left;">  You can find the manuscript and recorded presentation here: <a class="highlight-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12032/120320R/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/10.1117/12.2607871.full?SSO=1" target="_blank" rel="noreferrer"> link.</a> </p>'
+  tags:
+    - tag: Published
+    - tag: SPIE Medical Imaging
+    - tag: Oral Presentation
+  timeline-side: right
 
 - title: SPIE Medical Imaging 2022
   title-url: https://spie.org/MI22/conferencedetails/medical-image-processing?enableBackToBrowse=true
@@ -25,7 +34,7 @@
     - tag: Accepted
     - tag: SPIE Medical Imaging
     - tag: Oral Presentation
-  timeline-side: right
+  timeline-side: left
 
 - title: Bucknell University
   title-url: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/SPIE22.html
@@ -36,7 +45,7 @@
     - tag: Scikit-Learn
     - tag: Matplotlib
     - tag: Python
-  timeline-side: left
+  timeline-side: right
 
 - title: Journal of Open Source Software
   title-url: https://joss.theoj.org/papers/10.21105/joss.03156
@@ -48,7 +57,7 @@
     - tag: Open Access
     - tag: KALMUS
     - tag: Python Package
-  timeline-side: right
+  timeline-side: left
 
 - title: SPIE Medical Imaging 2021
   title-url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115961O/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1
@@ -59,7 +68,7 @@
     - tag: SPIE
     - tag: Oral Presentation
     - tag: Ei Compendex
-  timeline-side: left
+  timeline-side: right
 
 - title: SPIE Medical Imaging 2021
   title-url: https://spie.org/conferences-and-exhibitions/medical-imaging
@@ -69,7 +78,7 @@
     - tag: Accepted
     - tag: SPIE
     - tag: Oral Presentation
-  timeline-side: right
+  timeline-side: left
 
 - title: Bucknell University, Res Ed
   title-url: https://www.bucknell.edu/life-bucknell/housing-services/residential-education
@@ -78,7 +87,7 @@
   tags:
     - tag: Leadership
     - tag: Communication
-  timeline-side: left
+  timeline-side: right
 
 - title: Bucknell University
   title-url: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/SPIE21.html
@@ -89,7 +98,7 @@
     - tag: Scikit-Learn
     - tag: Matplotlib
     - tag: Python
-  timeline-side: right
+  timeline-side: left
 
 - title: Bucknell University
   title-url: https://joss.theoj.org/papers/10.21105/joss.03156
