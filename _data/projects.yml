@@ -52,3 +52,11 @@
     - tag: Stock trading
     - tag: Stochastic approximation
     - tag: Open-source (MIT-License)
+
+- name: "R Visualizations: Data, Arts, COVID, and Cardiology"
+  descr: "Portfolio Website for Math 230: Data Visualization <br> This website hosts the visualization and generative artworks that I created during the course. You can also find a set of data stories that walk you through the key indicators of heart disease on <a class='highlight-link' href='https://yc015.github.io/yida-r-visualization-portfolio-website/cardiac.html' target='_blank' rel='noreferrer'>Narrative Visualization</a> page, which extract the insights from CDC's 2020 <a class='highlight-link' href='https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease' target='_blank' rel='noreferrer'>annual survey</a> of the American adult's health status. <br> <br> The project is implemented in <a class='highlight-link' href='https://www.r-project.org/' target='_blank' rel='noreferrer'>R</a>, and the portfolio website is built with <a class='highlight-link' href='https://github.com/rstudio/distill' target='_blank' rel='noreferrer'>Distill</a>. <br> <br> <img src='assets/img/covid_heatmap_cumulative_cases.gif' alt='covid_heatmap' height='164'> <img src='assets/img/function_art.png' alt='r_visualization_artwork' height='164'>"
+  demo: https://yc015.github.io/yida-r-visualization-portfolio-website/
+  tags:
+    - tag: R
+    - tag: Visualization
+    - tag: Generative Art
