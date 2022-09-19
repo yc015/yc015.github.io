@@ -16,6 +16,16 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
+- title: Joining Harvard SEAS
+  title-url: https://insight.seas.harvard.edu/
+  date: Aug 2022
+  subtitle: "<p style='text-align:left;'> I am now a new member of Insight + Interaction Lab at Harvard SEAS. It's so exciting to work with everyone here! Check out our group: <a class='highlight-link' href='https://insight.seas.harvard.edu/' target='_blank' rel='noreferrer'> Insight + Interaction Lab</a>. </p>"
+  tags:
+    - tag: Harvard
+    - tag: Ph.D.
+    - tag: Insight + Interaction
+  timeline-side: right
+
 - title: Graduated from Bucknell
   title-url: https://www.bucknell.edu/life-bucknell/commencement/class-2022-commencement
   date: May 2022
@@ -24,7 +34,7 @@
     - tag: Bucknell
     - tag: Undergraduate
     - tag: Graduation
-  timeline-side: right
+  timeline-side: left
 
 - title: SPIE Medical Imaging 2022
   title-url: https://spie.org/MI22/conferencedetails/medical-image-processing?enableBackToBrowse=true
@@ -34,7 +44,7 @@
     - tag: Published
     - tag: SPIE Medical Imaging
     - tag: Oral Presentation
-  timeline-side: left
+  timeline-side: right
 
 - title: SPIE Medical Imaging 2022
   title-url: https://spie.org/MI22/conferencedetails/medical-image-processing?enableBackToBrowse=true
@@ -44,7 +54,7 @@
     - tag: Accepted
     - tag: SPIE Medical Imaging
     - tag: Oral Presentation
-  timeline-side: right
+  timeline-side: left
 
 - title: Bucknell University
   title-url: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/SPIE22.html
@@ -55,7 +65,7 @@
     - tag: Scikit-Learn
     - tag: Matplotlib
     - tag: Python
-  timeline-side: left
+  timeline-side: right
 
 - title: Journal of Open Source Software
   title-url: https://joss.theoj.org/papers/10.21105/joss.03156
@@ -67,7 +77,7 @@
     - tag: Open Access
     - tag: KALMUS
     - tag: Python Package
-  timeline-side: right
+  timeline-side: left
 
 - title: SPIE Medical Imaging 2021
   title-url: https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115961O/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1
@@ -78,7 +88,7 @@
     - tag: SPIE
     - tag: Oral Presentation
     - tag: Ei Compendex
-  timeline-side: left
+  timeline-side: right
 
 - title: SPIE Medical Imaging 2021
   title-url: https://spie.org/conferences-and-exhibitions/medical-imaging
@@ -88,7 +98,7 @@
     - tag: Accepted
     - tag: SPIE
     - tag: Oral Presentation
-  timeline-side: right
+  timeline-side: left
 
 - title: Bucknell University, Res Ed
   title-url: https://www.bucknell.edu/life-bucknell/housing-services/residential-education
@@ -97,7 +107,7 @@
   tags:
     - tag: Leadership
     - tag: Communication
-  timeline-side: left
+  timeline-side: right
 
 - title: Bucknell University
   title-url: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/SPIE21.html
@@ -108,7 +118,7 @@
     - tag: Scikit-Learn
     - tag: Matplotlib
     - tag: Python
-  timeline-side: right
+  timeline-side: left
 
 - title: Bucknell University
   title-url: https://joss.theoj.org/papers/10.21105/joss.03156
@@ -121,7 +131,7 @@
     - tag: GitHub CI
     - tag: Codecov
     - tag: Python
-  timeline-side: left
+  timeline-side: right
 
 - title: Bucknell University
   title-url: https://www.bucknell.edu/
@@ -133,4 +143,4 @@
     - tag: Andriod
     - tag: Java
     - tag: JavaFX
-  timeline-side: right
+  timeline-side: left
