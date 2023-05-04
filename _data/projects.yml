@@ -13,6 +13,23 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Probe,  Intervene, & Control the 3D Reoresentations in Diffusion Model
+  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' height='140'>"
+  tags:
+    - tag: In-submission
+    - tag: PyTorch
+    - tag: OpenCV
+    - tag: Interpretability
+
+- name: Visualize Attention Flow inside Large Transformer Models
+  descr: "Wonder how the attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention. Collaboration with Catherine Yeh (<a class='highlight-link' href='https://catherinesyeh.github.io/' target='_blank' rel='noreferrer'> link</a>). My main contribution is the visualizations of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' height='160'>"
+  demo: http://attentionviz.com/
+  tags:
+    - tag: In-submission
+    - tag: Visualizations
+    - tag: Transformer
+    - tag: Interpretability
+
 - name: Fully Automated Full-Video Multi-heartbeat Echocardiography Segmentation
   descr: "We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to multi-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. Our paper about this project has been accepted for an oral presentation at SPIE Medical Imaging 2022: Image Processing Conference, <a class='highlight-link' href='https://spie.org/medical-imaging/presentation/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/12032-29' target='_blank' rel='noreferrer'> webpage </a>. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' width='164' height='200'>"
   demo: http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/chenSPIE22_preprint.pdf
@@ -34,7 +51,7 @@
     - tag: OpenCV
 
 - name: "KALMUS: tools for color analysis of films"
-  descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/kalmus_gui.png' alt='kalmus_gui' height='116'>"
+  descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/mission_barcode_Foreground_avg.png' alt='kalmus_img' height='100'> <img src='assets/img/kalmus_color_t.png' alt='kalmus_img' height='100'><br><img src='assets/img/kalmus_gui.png' alt='kalmus_img' height='200'>"
   demo: https://github.com/KALMUS-Color-Toolkit/KALMUS
   tags:
     - tag: Python
@@ -54,7 +71,7 @@
     - tag: Open-source (MIT-License)
 
 - name: "R Visualizations: Data, Arts, COVID, and Cardiology"
-  descr: "Portfolio Website for Math 230: Data Visualization <br> This website hosts the visualization and generative artworks that I created during the course. You can also find a set of data stories that walk you through the key indicators of heart disease on <a class='highlight-link' href='https://yc015.github.io/yida-r-visualization-portfolio-website/cardiac.html' target='_blank' rel='noreferrer'>Narrative Visualization</a> page, which extract the insights from CDC's 2020 <a class='highlight-link' href='https://www.kaggle.com/datasets/kamilpytlak/personal-key-indicators-of-heart-disease' target='_blank' rel='noreferrer'>annual survey</a> of the American adult's health status. <br> <br> The project is implemented in <a class='highlight-link' href='https://www.r-project.org/' target='_blank' rel='noreferrer'>R</a>, and the portfolio website is built with <a class='highlight-link' href='https://github.com/rstudio/distill' target='_blank' rel='noreferrer'>Distill</a>. <br> <br> <img src='assets/img/covid_heatmap_cumulative_cases.gif' alt='covid_heatmap' height='164'> <img src='assets/img/function_art.png' alt='r_visualization_artwork' height='164'>"
+  descr: "Portfolio Website for Math 230: Data Visualization <br> This website hosts the visualization and generative artworks that I created during the course. <br> <br> The project is implemented in <a class='highlight-link' href='https://www.r-project.org/' target='_blank' rel='noreferrer'>R</a>, and the portfolio website is built with <a class='highlight-link' href='https://github.com/rstudio/distill' target='_blank' rel='noreferrer'>Distill</a>. <br> <br> <img src='assets/img/covid_heatmap_cumulative_cases.gif' alt='covid_heatmap' height='164'> <img src='assets/img/function_art.png' alt='r_visualization_artwork' height='164'>"
   demo: https://yc015.github.io/yida-r-visualization-portfolio-website/
   tags:
     - tag: R
