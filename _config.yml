@@ -83,7 +83,7 @@ show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
 contact_title: Contact <span style="font-weight:normal">&#128234</span>
 # contact_description: This will be displayed under the title.
-contact_description: 'Thank you so much for visiting my website! If you have any questions or are interest in corporation, please contact me via the email, <a class="highlight-link" href="mailto:yc015@bucknell.edu"> yidachen@g.harvard.edu </a>. <a href="mailto:yidachen@g.harvard.edu"> &#128231 </a> The source code of this website can be found here <a class="highlight-link" href="https://github.com/yc015/yc015.github.io" target="_blank" rel="noreferrer"> GitHub Repo </a>.'
+contact_description: 'Thank you so much for visiting my website!'
 
 # GITHUB-METADATA
 # Set this to your forked repository
