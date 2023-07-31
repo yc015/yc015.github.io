@@ -22,7 +22,7 @@
     - tag: Interpretability
 
 - name: Visualize Attention Flow inside Large Transformer Models
-  descr: "Wonder how the attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention. Collaboration with Catherine Yeh (<a class='highlight-link' href='https://catherinesyeh.github.io/' target='_blank' rel='noreferrer'> link</a>). My main contribution is the visualizations of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' height='160'>"
+  descr: "Wonder how the attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention. Collaboration with Catherine Yeh (<a class='highlight-link' href='https://catherinesyeh.github.io/' target='_blank' rel='noreferrer'> link</a>). My main contribution is the visualization of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' height='160'>"
   demo: http://attentionviz.com/
   tags:
     - tag: In-submission
