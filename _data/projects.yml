@@ -14,7 +14,8 @@
 #     - tag: Node
 
 - name: Probe,  Intervene, & Control the 3D Representations in Diffusion Model
-  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' height='140'>"
+  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' height='140'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper Preprint </a>"
+  demo: https://yc015.github.io/scene-representation-diffusion-model/
   tags:
     - tag: In-submission
     - tag: PyTorch
