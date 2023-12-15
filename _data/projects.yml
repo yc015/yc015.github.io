@@ -14,10 +14,10 @@
 #     - tag: Node
 
 - name: Probe,  Intervene, & Control the 3D Representations in Diffusion Model
-  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' height='140'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper Preprint </a>"
+  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' height='140'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper Preprint </a> <a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Public Reception </a>"
   demo: https://yc015.github.io/scene-representation-diffusion-model/
   tags:
-    - tag: In-submission
+    - tag: NeurIPS 2023
     - tag: PyTorch
     - tag: OpenCV
     - tag: Interpretability
@@ -26,7 +26,7 @@
   descr: "Wonder how the attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention. Collaboration with Catherine Yeh (<a class='highlight-link' href='https://catherinesyeh.github.io/' target='_blank' rel='noreferrer'> link</a>). My main contribution is the visualization of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' height='160'>"
   demo: http://attentionviz.com/
   tags:
-    - tag: In-submission
+    - tag: IEEE VIS 2023
     - tag: Visualizations
     - tag: Transformer
     - tag: Interpretability
