@@ -81,7 +81,7 @@ os_projects_title: Open Source Projects <span style="font-weight:normal">&#12818
 # > setting this to false, will omit the Contact section
 show_contact_card: true
 # contact_title: The will be displayed as the title in the Contact section
-contact_title: Contact <span style="font-weight:normal">&#128234</span>
+contact_title: Contact <span style="font-weight:normal"><a target="_blank" rel="noreferrer" href="mailto:yidachen@g.harvard.edu">&#128234</a></span>
 # contact_description: This will be displayed under the title.
 contact_description: 'Thank you so much for visiting my website!'
 
@@ -119,6 +119,7 @@ projects:
       - todo-app-svelte-firebase-chen
       - CrossAttentionControl 
       - stochastic-optimization-of-stock-buying-selling 
+      # - yc015.github.io
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 

@@ -14,7 +14,7 @@
 #     - tag: Node
 
 - name: Do Language Models Learn Causal Representations of Space?
-  descr: "Recent work from <a class='highlight-link' href='https://arxiv.org/abs/2310.02207' target='_blank' rel='noreferrer'>Gurnee et al.</a> show that the activations of neural language models have high correlation with the spatial and temporal property of their inputs. However, the work didn't estabilish a causal link between two. Our experiments, filling a part of this blank, show that the spatial representations has causal influence on the model's behavior. Editing spatial representations can improve the language model's performance on a simple spatial task. <br> <br> <img src='assets/paper/gpt_logit_change.png' alt='language_logit_change' height='140'> <br> <a class='highlight-link' href='assets/paper/More_than_Correlation__Do_Large_Language_Models_Learn_Causal_Representations_of_Space.pdf' target='_blank' rel='noreferrer'> Paper Preprint </a>
+  descr: "Recent work from <a class='highlight-link' href='https://arxiv.org/abs/2310.02207' target='_blank' rel='noreferrer'>Gurnee et al.</a> show that the activations of neural language models have high correlation with the spatial and temporal properties of their inputs. However, the work didn't estabilish a causal link between two. Our experiments, filling a part of this blank, show that the spatial representation has causal influence on the model's behavior. Editing LLM's spatial representations can improve the model's performance on a simple spatial task.<br> <br> <img src='assets/paper/gpt_logit_change.png' alt='language_logit_change' height='140'> <br> <a class='highlight-link' href='assets/paper/More_than_Correlation__Do_Large_Language_Models_Learn_Causal_Representations_of_Space.pdf' target='_blank' rel='noreferrer'> Paper Preprint </a>"
   demo: https://github.com/jenniferz99/causal-spatial-representations"
   tags:
     - tag: preprint
@@ -22,7 +22,7 @@
     - tag: Interpretability
 
 - name: Probe,  Intervene, & Control the 3D Representations in Diffusion Model
-  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' height='140'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Video Presentation</a> (not from authors) "
+  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Video Presentation</a> (54K Views)"
   demo: https://yc015.github.io/scene-representation-diffusion-model/
   tags:
     - tag: NeurIPS 2023
@@ -31,7 +31,7 @@
     - tag: Interpretability
 
 - name: Visualize Attention Flow inside Large Transformer Models
-  descr: "Wonder how the attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention. Collaboration with Catherine Yeh (<a class='highlight-link' href='https://catherinesyeh.github.io/' target='_blank' rel='noreferrer'> link</a>). My main contribution is the visualization of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' height='160'>"
+  descr: "Wonder how the attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention. Collaboration with Catherine Yeh (<a class='highlight-link' href='https://catherinesyeh.github.io/' target='_blank' rel='noreferrer'> link</a>). My main contribution is the visualization of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' style='width:-webkit-fill-available;height: -webkit-fill-available;'>"
   demo: http://attentionviz.com/
   tags:
     - tag: IEEE VIS 2023
