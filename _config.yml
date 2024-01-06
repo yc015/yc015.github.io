@@ -119,7 +119,7 @@ projects:
       - todo-app-svelte-firebase-chen
       - CrossAttentionControl 
       - stochastic-optimization-of-stock-buying-selling 
-      # - yc015.github.io
+      - yc015.github.io
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 
