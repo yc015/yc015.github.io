@@ -16,6 +16,16 @@
 #     - tag: Ruby
 #     - tag: Rails
 #   timeline-side: right
+- title: Judge for NCRC 2024
+  title-url: https://harvardresearch.org/about-ncrc
+  date: Jan 2024
+  subtitle: "<p style='text-align:left;'> Served as the judge for National Collegiate Research Conference 2024 at Harvard. Reviewed and oversaw 8 undergraduate student projects. </p>"
+  tags:
+    - tag: Harvard
+    - tag: NCRC
+    - tag: Judge
+  timeline-side: left
+
 - title: Joining Harvard SEAS
   title-url: https://insight.seas.harvard.edu/
   date: Aug 2022
