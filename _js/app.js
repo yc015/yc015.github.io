@@ -1,5 +1,5 @@
 setTimeout(function() {
-  fadeOutPreloader(document.getElementById('preloader'), 19);
+  fadeOutPreloader(document.getElementById('preloader'), 5);
 }, 1500);
 
 $(document).ready(function() {
