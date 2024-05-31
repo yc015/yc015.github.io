@@ -8,7 +8,12 @@ You can find my contact, Linkedin, and CV on the website. The bulletin board sec
 
 <figure class="image">
     <img src="assets/favicon/favicon.png" width="100" height="" />
-    <figcaption>Favicon of my personal website. &copy Yida Chen, 2021 </figcaption>
+    <figcaption>Favicon version 2 of my personal website. &copy Yida Chen, 2024 </figcaption>
+</figure>
+
+<figure class="image">
+    <img src="assets/favicon/favicon_v1/favicon.png" width="100" height="" />
+    <figcaption>Favicon version 1 of my personal website. &copy Yida Chen, 2024 </figcaption>
 </figure>
 <br>
 
