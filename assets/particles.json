@@ -1,7 +1,7 @@
 {
   "particles": {
     "number": {
-      "value": 8,
+      "value": 7,
       "density": {
         "enable": true,
         "value_area": 800
@@ -16,18 +16,15 @@
         "width": 0,
         "color": "#000000"
       },
+      
       "options": {
         "images": [
           {
-            "src": "assets/img/sun-emoji-low-opacity.png",
+            "src": "assets/img/sun-emoji.png",
             "width": 100,
             "height": 100
           },
-          {
-            "src": "assets/img/harvard_logo.png",
-            "width": 90,
-            "height": 90
-          },
+         
           {
             "src": "assets/img/lulu_yc.png",
             "width": 200,
@@ -37,22 +34,22 @@
       }
     },
     "opacity": {
-      "value": 0.5,
+      "value": 0.4,
       "random": true,
       "anim": {
         "enable": false,
         "speed": 1,
-        "opacity_min": 0.3,
+        "opacity_min": 0.2,
         "sync": false
       }
     },
     "size": {
-      "value": 17,
+      "value": 18,
       "random": true,
       "anim": {
         "enable": false,
         "speed": 4,
-        "size_min": 5,
+        "size_min": 7,
         "sync": false
       }
     },
@@ -77,15 +74,12 @@
   "interactivity": {
     "detect_on": "canvas",
     "events": {
-      "onhover": {
-        "enable": true,
-        "mode": "repulse"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
       "resize": true
+    },
+    "modes": {
+        "push": {
+            "quantity": 3
+        }
     },
     "retina_detect": true
   }
