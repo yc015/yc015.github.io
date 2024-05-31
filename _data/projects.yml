@@ -60,7 +60,7 @@
     - tag: OpenCV
 
 - name: "KALMUS: tools for color analysis of films"
-  descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/mission_barcode_Foreground_avg.png' alt='kalmus_img' height='100vh'> <img src='assets/img/kalmus_color_t.png' alt='kalmus_img' height='100vh''><br><img src='assets/img/kalmus_gui.png' alt='kalmus_img' style='width:-webkit-fill-available;height: -webkit-fill-available;'>"
+  descr: "KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/mission_barcode_Foreground_avg.png' alt='kalmus_img' height='100vh' style='max-width: -webkit-fill-available;'> <img src='assets/img/kalmus_color_t.png' alt='kalmus_img' height='100vh' style='max-width: -webkit-fill-available;'><br><img src='assets/img/kalmus_gui.png' alt='kalmus_img' style='width:-webkit-fill-available;height: -webkit-fill-available;'>"
   demo: https://github.com/KALMUS-Color-Toolkit/KALMUS
   tags:
     - tag: Python

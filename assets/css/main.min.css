@@ -22,7 +22,7 @@ p {
 }
 
 a {
-    color: #ff073a;
+    color: #ff4f72;
     text-decoration: none
 }
 
@@ -36,16 +36,16 @@ a:hover {
 }
 
 .highlight-link {
-    box-shadow: inset 0 -.125rem 0 #ff073a;
+    box-shadow: inset 0 -.125rem 0 #ff4f72;
     box-sizing: border-box;
-    color: #ff073a;
+    color: #ff4f72;
     display: inline-block;
     padding: .125rem;
     transition: all .2s ease-in-out
 }
 
 .highlight-link:hover {
-    box-shadow: inset 0 -2rem 0 0 #ff073a;
+    box-shadow: inset 0 -2rem 0 0 #ff6383;
     color: #fff
 }
 
@@ -85,7 +85,7 @@ a:hover {
 }
 
 .neumorphism-card-big {
-    box-shadow: 5px 5px 4px #ccc,-5px -5px 4px #bbb;
+    box-shadow: 5px 5px 4px #e2e2e2,-5px -5px 4px #d1d1d1;
 }
 
 #preloader {
@@ -260,7 +260,7 @@ a:hover {
 }
 
 .landing-icons .email:hover .social-svg {
-    fill: #d44638
+    fill: #ff3422
 }
 
 .landing-icons .linkedin:hover .circle {
@@ -284,7 +284,8 @@ a:hover {
 }
 
 .landing-icons .twitter:hover .social-svg {
-    fill: #f2d700
+    fill:#f39e00
+
 }
 
 @keyframes b {
@@ -316,7 +317,7 @@ a:hover {
 
 @keyframes e {
     to {
-        stroke: #b23121
+        stroke: #ff3422
     }
 }
 
@@ -334,7 +335,7 @@ a:hover {
 
 @keyframes g {
     to {
-        stroke: #f2d700
+        stroke: #f39e00
     }
 }
 

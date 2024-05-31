@@ -11,17 +11,19 @@
       "value": ["#FB88B4"]
     },
     "shape": {
-      "type": "polygon",
+      "type": "image",
       "stroke": {
         "width": 0,
         "color": "#000000"
       },
-      "polygon": {
-        "nb_sides": 4
+      "image": {
+        "src": "../assets/img/sun-emoji-low-opacity.png",
+        "width": 100,
+        "height": 100
       }
     },
     "opacity": {
-      "value": 0.7,
+      "value": 0.5,
       "random": true,
       "anim": {
         "enable": false,
@@ -62,7 +64,8 @@
     "detect_on": "canvas",
     "events": {
       "onhover": {
-        "enable": false
+        "enable": true,
+        "mode": "repulse"
       },
       "onclick": {
         "enable": true,
