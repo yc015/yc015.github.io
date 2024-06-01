@@ -575,7 +575,11 @@ a:hover {
 }
 
 .contact-icons .social-link:hover .social-svg {
-    fill: #fff
+    fill: #000000
+}
+
+.contact-icons .red:hover .social-svg {
+    fill: #ff3422
 }
 
 .contact-icons .black:hover .social-svg {
