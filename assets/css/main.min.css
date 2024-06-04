@@ -854,43 +854,43 @@ a:hover {
   }
   
   .bouncing-text:hover .y {
-    animation: bounce 1s ease infinite;
-    -webkit-animation: bounce 1s ease infinite;
+    animation: bounce 1s ease 1;
+    -webkit-animation: bounce 1s ease 1;
   }
   
   .bouncing-text:hover .i {
-    animation: bounce 1s ease infinite .1s;
-    -webkit-animation: bounce 1s ease infinite .1s;
+    animation: bounce 1s ease 1 .1s;
+    -webkit-animation: bounce 1s ease 1 .1s;
   }
   
   .bouncing-text:hover .d {
-    animation: bounce 1s ease infinite .2s;
-    -webkit-animation: bounce 1s ease infinite .2s;
+    animation: bounce 1s ease 1 .2s;
+    -webkit-animation: bounce 1s ease 1 .2s;
   }
   
   .bouncing-text:hover .a {
-    animation: bounce 1s ease infinite .3s;
-    -webkit-animation: bounce 1s ease infinite .3s;
+    animation: bounce 1s ease 1 .3s;
+    -webkit-animation: bounce 1s ease 1 .3s;
   }
   
   .bouncing-text:hover .c {
-    animation: bounce 1s ease infinite .4s;
-    -webkit-animation: bounce 1s ease infinite .4s;
+    animation: bounce 1s ease 1 .4s;
+    -webkit-animation: bounce 1s ease 1 .4s;
   }
   
   .bouncing-text:hover .h {
-    animation: bounce 1s ease infinite .5s;
-   -webkit-animation: bounce 1s ease infinite .5s;
+    animation: bounce 1s ease 1 .5s;
+   -webkit-animation: bounce 1s ease 1 .5s;
   }
 
   .bouncing-text:hover .e {
-    animation: bounce 1s ease infinite .6s;
-   -webkit-animation: bounce 1s ease infinite .6s;
+    animation: bounce 1s ease 1 .6s;
+   -webkit-animation: bounce 1s ease 1 .6s;
   }
 
   .bouncing-text:hover .n {
-    animation: bounce 1s ease infinite .7s;
-   -webkit-animation: bounce 1s ease infinite .7s;
+    animation: bounce 1s ease 1 .7s;
+   -webkit-animation: bounce 1s ease 1 .7s;
   }
   
    @keyframes bounce {
@@ -926,8 +926,8 @@ a:hover {
   
   .bouncing-text:before {
     left:0;
-    animation: scale 1s linear infinite;
-    -webkit-animation: scale 1s linear infinite;
+    animation: scale 1s linear 1;
+    -webkit-animation: scale 1s linear 1;
   }
   
   @keyframes scale {
@@ -948,6 +948,6 @@ a:hover {
   
   .bouncing-text:after {
     left: 57px;
-    animation: scale 1s linear infinite .1s;
-    -webkit-animation: scale 1s linear infinite .1s;
+    animation: scale 1s linear 1 .1s;
+    -webkit-animation: scale 1s linear 1 .1s;
   }
