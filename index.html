@@ -177,7 +177,7 @@
             
               <span class="tag neumorphism-card">preprint</span>
             
-              <span class="tag neumorphism-card">Natural Language Processing</span>
+              <span class="tag neumorphism-card">NLP</span>
             
               <span class="tag neumorphism-card">Interpretability</span>
             
@@ -189,7 +189,7 @@
         <div class="name-link-wrapper">
           <h3>Probe,  Intervene, & Control the 3D Representations in Diffusion Model</h3>
         </div>
-        <p class="project-desc">Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Video Presentation</a> (54K Views)</p>
+        <p class="project-desc">Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Video Presentation</a> (55K Views)</p>
         
           <a class="highlight-link" href="https://yc015.github.io/scene-representation-diffusion-model/" target="_blank" rel="noreferrer">
             Demo
@@ -200,9 +200,7 @@
             
               <span class="tag neumorphism-card">NeurIPS 2023</span>
             
-              <span class="tag neumorphism-card">PyTorch</span>
-            
-              <span class="tag neumorphism-card">OpenCV</span>
+              <span class="tag neumorphism-card">CV</span>
             
               <span class="tag neumorphism-card">Interpretability</span>
             
@@ -227,8 +225,6 @@
             
               <span class="tag neumorphism-card">Visualizations</span>
             
-              <span class="tag neumorphism-card">Transformer</span>
-            
               <span class="tag neumorphism-card">Interpretability</span>
             
           </div>
@@ -239,7 +235,8 @@
         <div class="name-link-wrapper">
           <h3>Fully Automated Full-Video Multi-heartbeat Echocardiography Segmentation</h3>
         </div>
-        <p class="project-desc">We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to multi-heartbeat video. Uisng supervised deep learning, we proposed a fully automated neural network-based segmentation method for sparsely annotated multi-heartbeat echocardiogram. Our proposed neural network exploited the spatiotemporal convolutions in extracting video features. Our paper about this project has been accepted for an oral presentation at SPIE Medical Imaging 2022: Image Processing Conference, <a class='highlight-link' href='https://spie.org/medical-imaging/presentation/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/12032-29' target='_blank' rel='noreferrer'> webpage </a>. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' height='240vh'></p>
+        <p class="project-desc">We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to multi-heartbeat video. We proposed a sliding window data augmentation technique for efficiently learning moition tracking and semantic segmentation from sparesely annotated echo videos (only 2 annotations per video).
+<a class='highlight-link' href='https://spie.org/medical-imaging/presentation/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/12032-29' target='_blank' rel='noreferrer'> Paper </a>. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' height='240vh'></p>
         
           <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/chenSPIE22_preprint.pdf" target="_blank" rel="noreferrer">
             Demo
@@ -248,15 +245,11 @@
         
           <div class="tag-wrapper">
             
-              <span class="tag neumorphism-card">Accepted</span>
+              <span class="tag neumorphism-card">SPIE Medical Imaging 2022</span>
             
-              <span class="tag neumorphism-card">PyTorch</span>
+              <span class="tag neumorphism-card">CV</span>
             
-              <span class="tag neumorphism-card">Scikit-Learn</span>
-            
-              <span class="tag neumorphism-card">Matplotlib</span>
-            
-              <span class="tag neumorphism-card">OpenCV</span>
+              <span class="tag neumorphism-card">Medical Imaging</span>
             
           </div>
         
@@ -266,7 +259,7 @@
         <div class="name-link-wrapper">
           <h3>Joint Motion Tracking and Video Segmentation of Echocardiography</h3>
         </div>
-        <p class="project-desc">We trained a 3D-UNet to segment and predict the motion of cardiac structures in the Echocardiography Video. The convolutional neural network is implemented in PyTorch and trained with dual Nvidia Titan RTX graphics cards. The experimental results show that the motion tracking task enhances the learning of video segmentation. Video segmentation, compared to the traditional frame segmentation, produces temporally coherent segmentation on cardiac structures, such as left ventricles. The temporally coherent segmentation further improves the estimations on patients' left-ventricular ejection fractions using segmented echocardiography video. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='4ch_video_segmentation' height='200vh'></p>
+        <p class="project-desc">We assessed a 3D-UNet's performance on jointly segmenting sparsely annotated half-heartbeat echocardiography videos and estimating cardiac structure's motions. The 3D-UNet was trained on CAMUS dataset, and we evaluated its generalizability on Stanford's EchoNet dataset. Comparing with traditional frame-based segmentation method, our results show that the joint learning of motion tracking and segmentation enhances the segmentation performance on video data. The video model also has better generalizability on unseen dataset than frame-based model. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='4ch_video_segmentation' height='200vh'></p>
         
           <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf" target="_blank" rel="noreferrer">
             Demo
@@ -275,15 +268,11 @@
         
           <div class="tag-wrapper">
             
-              <span class="tag neumorphism-card">PyTorch</span>
+              <span class="tag neumorphism-card">SPIE Medical Imaging 2021</span>
             
-              <span class="tag neumorphism-card">Scikit-Image</span>
+              <span class="tag neumorphism-card">CV</span>
             
-              <span class="tag neumorphism-card">Scikit-Learn</span>
-            
-              <span class="tag neumorphism-card">Matplotlib</span>
-            
-              <span class="tag neumorphism-card">OpenCV</span>
+              <span class="tag neumorphism-card">Medical Imaging</span>
             
           </div>
         
@@ -302,17 +291,11 @@
         
           <div class="tag-wrapper">
             
-              <span class="tag neumorphism-card">Python</span>
+              <span class="tag neumorphism-card">JOSS 2021</span>
             
-              <span class="tag neumorphism-card">OpenCV</span>
+              <span class="tag neumorphism-card">Visualization</span>
             
-              <span class="tag neumorphism-card">Scikit-Image</span>
-            
-              <span class="tag neumorphism-card">tkinter</span>
-            
-              <span class="tag neumorphism-card">PyPI package</span>
-            
-              <span class="tag neumorphism-card">Open-source (MIT-License)</span>
+              <span class="tag neumorphism-card">Digital Humanities</span>
             
           </div>
         
@@ -322,7 +305,7 @@
         <div class="name-link-wrapper">
           <h3>Stochastic method for optimizing stock trading strategy</h3>
         </div>
-        <p class="project-desc">Course Project of Math 343: Numerical Analysis <br> This project implements and extends a stochastic approximation (SA) method proposed by Song et al. [1]. This SA method aims to find an optimal set of buying and selling thresholds for trading a stock. The method assumes the stock has a mean-reversion property so the stock price will oscillate around a long-term average. <br> <br> [1] Q. S. Song, G. Yin, and Q. Zhang, “Numerical methods for buying-low-and-selling-high stock policy,” 2008 American Control Conference, 2008, <a class='highlight-link' href='https://doi.org/10.1109/ACC.2008.4586627' target='_blank' rel='noreferrer'> https://doi.org/10.1109/ACC.2008.4586627 </a> <br> <br> <img src='assets/img/local_stochastic_optimization_stock_trading.png' alt='stochastic_optimization' height='180vh'></p>
+        <p class="project-desc">This project implements and extends a stochastic approximation (SA) method proposed by Song et al. [1]. This SA method aims to find an optimal set of buying and selling thresholds for trading a stock. It assumes the stock has a mean-reversion property so the stock price will oscillate around a long-term average. <br> <br> [1] Q. S. Song, G. Yin, and Q. Zhang, “Numerical methods for buying-low-and-selling-high stock policy,” 2008 American Control Conference, 2008, <a class='highlight-link' href='https://doi.org/10.1109/ACC.2008.4586627' target='_blank' rel='noreferrer'> https://doi.org/10.1109/ACC.2008.4586627 </a> <br> <br> <img src='assets/img/local_stochastic_optimization_stock_trading.png' alt='stochastic_optimization' height='180vh'></p>
         
           <a class="highlight-link" href="https://github.com/yc015/stochastic-optimization-of-stock-buying-selling" target="_blank" rel="noreferrer">
             Demo
@@ -331,36 +314,11 @@
         
           <div class="tag-wrapper">
             
-              <span class="tag neumorphism-card">MATLAB</span>
+              <span class="tag neumorphism-card">Project</span>
             
               <span class="tag neumorphism-card">Stock trading</span>
             
-              <span class="tag neumorphism-card">Stochastic approximation</span>
-            
-              <span class="tag neumorphism-card">Open-source (MIT-License)</span>
-            
-          </div>
-        
-      </div>
-    
-      <div class="project neumorphism-card" data-aos="zoom-in-down">
-        <div class="name-link-wrapper">
-          <h3>R Visualizations: Data, Arts, COVID, and Cardiology</h3>
-        </div>
-        <p class="project-desc">Portfolio Website for Math 230: Data Visualization <br> This website hosts the visualization and generative artworks that I created during the course. <br> <br> The project is implemented in <a class='highlight-link' href='https://www.r-project.org/' target='_blank' rel='noreferrer'>R</a>, and the portfolio website is built with <a class='highlight-link' href='https://github.com/rstudio/distill' target='_blank' rel='noreferrer'>Distill</a>. <br> <br> <img src='assets/img/covid_heatmap_cumulative_cases.gif' alt='covid_heatmap' height='180vh'> <img src='assets/img/function_art.png' alt='r_visualization_artwork' height='180vh'></p>
-        
-          <a class="highlight-link" href="https://yc015.github.io/yida-r-visualization-portfolio-website/" target="_blank" rel="noreferrer">
-            Demo
-          </a>
-        
-        
-          <div class="tag-wrapper">
-            
-              <span class="tag neumorphism-card">R</span>
-            
-              <span class="tag neumorphism-card">Visualization</span>
-            
-              <span class="tag neumorphism-card">Generative Art</span>
+              <span class="tag neumorphism-card">Optimization</span>
             
           </div>
         
