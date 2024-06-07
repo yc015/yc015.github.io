@@ -121,6 +121,10 @@ projects:
       - stochastic-optimization-of-stock-buying-selling 
       - yc015.github.io
       - sycophancy-correction-for-mental-health-LLM
+      - KALMUS-JOSS-release-1.3.9
+      - Ruby-Inspect
+      - COVID-19_Radiography_Classification
+      - yida-r-visualization-portfolio-website
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 
