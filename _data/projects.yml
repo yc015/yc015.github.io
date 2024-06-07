@@ -64,13 +64,13 @@
     - tag: Visualization
     - tag: Digital Humanities
 
-- name: "Stochastic method for optimizing stock trading strategy"
-  descr: "This project implements and extends a stochastic approximation (SA) method proposed by Song et al. [1]. This SA method aims to find an optimal set of buying and selling thresholds for trading a stock. It assumes the stock has a mean-reversion property so the stock price will oscillate around a long-term average. <br> <br> [1] Q. S. Song, G. Yin, and Q. Zhang, “Numerical methods for buying-low-and-selling-high stock policy,” 2008 American Control Conference, 2008, <a class='highlight-link' href='https://doi.org/10.1109/ACC.2008.4586627' target='_blank' rel='noreferrer'> https://doi.org/10.1109/ACC.2008.4586627 </a> <br> <br> <img src='assets/img/local_stochastic_optimization_stock_trading.png' alt='stochastic_optimization' height='180vh'>"
-  demo: https://github.com/yc015/stochastic-optimization-of-stock-buying-selling
-  tags:
-    - tag: Project
-    - tag: Stock trading
-    - tag: Optimization
+# - name: "Stochastic method for optimizing stock trading strategy"
+#   descr: "This project implements and extends a stochastic approximation (SA) method proposed by Song et al. [1]. This SA method aims to find an optimal set of buying and selling thresholds for trading a stock. It assumes the stock has a mean-reversion property so the stock price will oscillate around a long-term average. <br> <br> [1] Q. S. Song, G. Yin, and Q. Zhang, “Numerical methods for buying-low-and-selling-high stock policy,” 2008 American Control Conference, 2008, <a class='highlight-link' href='https://doi.org/10.1109/ACC.2008.4586627' target='_blank' rel='noreferrer'> https://doi.org/10.1109/ACC.2008.4586627 </a> <br> <br> <img src='assets/img/local_stochastic_optimization_stock_trading.png' alt='stochastic_optimization' height='180vh'>"
+#   demo: https://github.com/yc015/stochastic-optimization-of-stock-buying-selling
+#   tags:
+#     - tag: Project
+#     - tag: Stock trading
+#     - tag: Optimization
 
 # - name: "R Visualizations: Data, Arts, COVID, and Cardiology"
 #   descr: "Portfolio Website for Math 230: Data Visualization <br> This website hosts the visualization and generative artworks that I created during the course. <br> <br> The project is implemented in <a class='highlight-link' href='https://www.r-project.org/' target='_blank' rel='noreferrer'>R</a>, and the portfolio website is built with <a class='highlight-link' href='https://github.com/rstudio/distill' target='_blank' rel='noreferrer'>Distill</a>. <br> <br> <img src='assets/img/covid_heatmap_cumulative_cases.gif' alt='covid_heatmap' height='180vh'> <img src='assets/img/function_art.png' alt='r_visualization_artwork' height='180vh'>"
