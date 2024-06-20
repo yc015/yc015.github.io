@@ -13,16 +13,25 @@
 #     - tag: AngularJS
 #     - tag: Node
 
+- name: Designing a Dashboard for Transparency and Control of Conversational AI
+  descr: "Have you ever thought about if chatbot LLMs are internally modeling your profile? If they are, how might this model of you influence the answers they give to your questions? <br> <br> Our experiments provide evidence that a conversational AI is internally profling its user during the chat. We design an end-to-end prototype—TalkTuner—that expose this internal user model to the users. User study shows this new chatbot UI design impacts the user's trust in AIs and expose biases of LLM systems. <br> <br> <img src='assets/img/dashboard_overview.png' alt='dashboard-overview' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2406.07882' target='_blank' rel='noreferrer'> Paper Preprint </a>"
+  demo: https://yc015.github.io/TalkTuner-a-dashboard-ui-for-chatbot-llm/
+  tags:
+    - tag: preprint
+    - tag: Chatbot
+    - tag: NLP
+    - tag: Interpretability
+
 - name: Do Language Models Learn Causal Representations of Space?
   descr: "Recent work from <a class='highlight-link' href='https://arxiv.org/abs/2310.02207' target='_blank' rel='noreferrer'>Gurnee et al.</a> show that the activations of neural language models have high correlation with the spatial and temporal properties of their inputs. However, the work didn't estabilish a causal link between two. Our experiments, filling a part of this blank, show that the spatial representation has causal influence on the model's behavior. Editing LLM's spatial representations can improve the model's performance on a simple spatial task.<br> <br> <img src='assets/paper/gpt_logit_change.png' alt='language_logit_change' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2312.16257' target='_blank' rel='noreferrer'> Paper Preprint </a>"
-  demo: https://github.com/jenniferz99/causal-spatial-representations"
+  demo: https://github.com/jenniferz99/causal-spatial-representations
   tags:
     - tag: preprint
     - tag: NLP
     - tag: Interpretability
 
 - name: Probe,  Intervene, & Control the 3D Representations in Diffusion Model
-  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/pdf/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Video Presentation</a> (55K Views)"
+  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Video Presentation</a> (55K Views)"
   demo: https://yc015.github.io/scene-representation-diffusion-model/
   tags:
     - tag: NeurIPS 2023
@@ -30,7 +39,7 @@
     - tag: Interpretability
 
 - name: Visualize Attention Flow inside Large Transformer Models
-  descr: "Wonder how attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention? Does machine's attention resemble human's visual cognition? Collaboration with Catherine Yeh. My main contribution is the visualization of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' style='width:-webkit-fill-available;height: -webkit-fill-available;'>"
+  descr: "Wonder how attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention? Does machine's attention resemble human's visual cognition? Collaboration with Catherine Yeh. My main contribution is the visualization of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2305.03210' target='_blank' rel='noreferrer'> Paper</a>"
   demo: http://attentionviz.com/
   tags:
     - tag: IEEE VIS 2023
