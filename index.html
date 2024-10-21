@@ -1,3 +1,1307 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Yida Chen</title>
+  <meta name="description" content="Yida Chen's website powered by Jekyll">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css">
+
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.16.2/dist/tsparticles.min.js" integrity="sha256-2Sly/Hf9UP7YBu6LEPpn/6rxMZR5EeGq89mBa4G5+YA=" crossorigin="anonymous"></script> -->
+  <!-- <script src="/assets/js/tsparticles.engine.min.js"></script> -->
+  <script src="/assets/js/vendors.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
+  
+<!-- <script src="path_to_your_main.js"></script> -->
+</head>
+
+<body>
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
+    </div>
+  </div>
+  <div id="landing">
+  <div class="landing-title" style="display: flex; justify-content: center;">
+    <div style="backdrop-filter: blur(6px);">
+      <h1 style="display: flex; flex-direction: row; align-items: center; justify-content: center;">Hi, I&#39;m
+        <span class="highlight-title">
+          <div class="bouncing-text">
+            <div>&nbsp;</div>
+            <div class=".bouncing-text y">Y</div>
+            <div class=".bouncing-text i">i</div>
+            <div class=".bouncing-text d">d</div>
+            <div class=".bouncing-text a">a</div>
+            <div>&nbsp;</div>
+            <div class=".bouncing-text c">C</div>
+            <div class=".bouncing-text h">h</div>
+            <div class=".bouncing-text e">e</div>
+            <div class=".bouncing-text n">n</div>
+            <div>&nbsp;</div>
+          </div>
+        </span> 😊
+      </h1>
+      <h1>
+        <span id="txt-rotate" data-period="800"
+          data-rotate='["ML Interpretability", "Human-AI Interaction", "Deep Learning", "Internal World Models", "Generative AIs", "scroll down for more."]'
+        >
+        </span>
+        <br><br>
+        <span class="self-intro">
+          &lt; CS Ph.D. Student at Harvard &gt;
+        </span>
+      </h1>
+      <div class="landing-icons">
+        
+          <a class="social-link email" aria-label="My E-Mail" href="mailto:yidachen@g.harvard.edu">
+            <svg viewBox="0 0 200 200" class="circle">
+              <circle cx="100" cy="100" r="80" />
+            </svg>
+            <div class="social">
+              <svg class="social-svg" viewBox="0 0 48 48">
+                <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope""></use>
+              </svg>
+            </div>
+            <span class="label">E-Mail</span>
+          </a>
+        
+
+        
+          <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+            href="https://github.com/yc015"
+          >
+            <svg viewBox="0 0 200 200" class="circle">
+              <circle cx="100" cy="100" r="80" />
+            </svg>
+            <div class="social">
+              <svg class="social-svg" viewBox="0 0 48 48">
+                <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+              </svg>
+            </div>
+            <span class="label">GitHub</span>
+          </a>
+        
+
+        
+
+        
+
+        
+          <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
+            rel="noreferrer" href="https://www.linkedin.com/in/edward-yida-chen"
+          >
+            <svg viewBox="0 0 200 200" class="circle">
+              <circle cx="100" cy="100" r="80" />
+            </svg>
+            <div class="social">
+              <svg class="social-svg" viewBox="0 0 48 48">
+                <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+              </svg>
+            </div>
+            <span class="label">LinkedIn</span>
+          </a>
+        
+
+        <a class="social-link twitter" aria-label="My Google Scholar" target="_blank"
+          rel="noreferrer" href="https://www.semanticscholar.org/author/Yida-Chen/16099092">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#scholar-cap-icon"></use>
+            </svg>
+          </div>
+          <span class="label">Scholar</span>
+        </a>
+
+        <a class="social-link resume" aria-label="My CV" target="_blank"
+          rel="noreferrer" href="https://drive.google.com/file/d/15Hh-OD7eI35lO9Xoa4356Gl2-nnr8GAB/view?usp=sharing">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#paper-profile-icon"></use>
+            </svg>
+          </div>
+          <span class="label">CV</span>
+        </a>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="layout">
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">About Me</h1>
+<p class="description" data-aos="fade-down"><p> Computer Science PhD candidate at Harvard <a class="simple-highlight" href="https://insight.seas.harvard.edu/" target="_blank" rel="noreferrer"> Insight + Interaction Lab </a> led by <a class="simple-highlight" href="http://www.fernandaviegas.com/" target="_blank" rel="noreferrer"> Prof. Fernanda Viegas </a> and <a class="simple-highlight" href="https://www.bewitched.com/" target="_blank" rel="noreferrer"> Prof. Martin Wattenberg</a>. &#128214 I am interested in making generative AIs more controllable through mechanistic interpretability and internal world models.</p> <p> Before entering Harvard, I was a Computer Science and Engineering student at Bucknell University 🦬 advised by <a class="simple-highlight" href="http://eg.bucknell.edu/~jvs008/research/research.html" target="_blank" rel="noreferrer"> Prof. Joshua Stough </a> (Bucknell University) and <a class="simple-highlight" href="https://www.dbmi.columbia.edu/profile/christopher-haggerty/" target="_blank" rel="noreferrer"> Prof. Christopher Haggerty </a> (Columbia University & New York-Presbyterian). My past projects focused on segmenting sparsely annotated medical videos using multi-task learning &#129505. My works were funded by the Ciffolillo Healthcare Technology Inventors Program (HTIP) &#127973. Our papers (<a class="simple-highlight" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/2580874/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1" target="_blank" rel="noreferrer"> [1] </a> <a class="simple-highlight" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12032/120320R/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/10.1117/12.2607871.full?SSO=1" target="_blank" rel="noreferrer"> [2] </a>) are published at the SPIE Medical Imaging 2021 & 2022 Conferences with oral presentations &#128221. </p> <p> I also developed a color analysis toolkit for films (KALMUS) &#127916. You can find the project's GitHub Repo here, <a class="simple-highlight" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> KALMUS-Color-Toolkit</a>. KALMUS' development was supported by the Mellon Academic Year Research Fellowship awarded &#129351 by Bucknell Humanities Center, and now used as a instructional software at Bucknell. </p> <p> Reviewer for <a class="simple-highlight" href="https://2024.emnlp.org/">EMNLP</a>, <a class="simple-highlight" href="https://neurips-creative-ai.github.io/2024/">NeurIPS 2024 Creative AI Track</a>, and <a class="simple-highlight" href="https://interpretable-ai-workshop.github.io/">NeurIPS Interpretable AI Workshop</a>.<br>First-year/Pre-concentration Advisor for <a class="simple-highlight" href="https://advising.college.harvard.edu/about-us/">Harvard College</a>.<br>Judge for National Collegiate Research Conference 2024 (<a class="simple-highlight" href="https://harvardresearch.org/about-ncrc" target="_blank" rel="noreferrer">NCRC</a>) at Harvard. </p></p>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        
+  <h1 class="title"><span>Research <span style="font-weight:normal">&#128203</span></span></h1>
+  <div class="projects-wrapper">
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>ChatGPT Doesn't Trust Chargers Fans: Guardrail Sensitivity in Context</h3>
+        </div>
+        <p class="project-desc">Not all users are turned away by chatbots for making suspicious requests. Your identity plays a key role when chatbot decides whether to refuse your potentially problematic inquiry. <br><br>Our new study shows that the ChatGPT guardrails sensitive knowledge to users with different gender, racial, and political demographics. In particular, younger, female, and Asian-American users are more likely to trigger the refusal from the ChatGPT when querying sensitive information. We proposed a new evaluation framework to identify such bias in the chatbot's refusal behaviors. <br> <br> <img src='assets/img/guardrail-sensitivity-experimental-setup.png' alt='guardrail sensitivity' style='width:-webkit-fill-available; height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2407.06866' target='_blank' rel='noreferrer'> Paper Preprint (to appear at EMNLP 2024 Main) </a></p>
+        
+          <a class="highlight-link" href="https://arxiv.org/abs/2407.06866" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">EMNLP 2024 Main</span>
+            
+              <span class="tag neumorphism-card">Chatbot</span>
+            
+              <span class="tag neumorphism-card">Human-AI Interaction</span>
+            
+              <span class="tag neumorphism-card">Bias</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Designing a Dashboard for Transparency and Control of Conversational AI</h3>
+        </div>
+        <p class="project-desc">Have you ever thought about if chatbot LLMs are internally modeling your profile? If they are, how might this model of you influence the answers they give to your questions? <br> <br> Our experiments provide evidence that a conversational AI is internally profling its user during the chat. We design an end-to-end prototype—TalkTuner—that expose this internal user model to the users. User study shows this new chatbot UI design impacts the user's trust in AIs and expose biases of LLM systems. <br> <br> <img src='assets/img/dashboard_overview.png' alt='dashboard-overview' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2406.07882' target='_blank' rel='noreferrer'> Paper Preprint </a></p>
+        
+          <a class="highlight-link" href="https://yc015.github.io/TalkTuner-a-dashboard-ui-for-chatbot-llm/" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">preprint</span>
+            
+              <span class="tag neumorphism-card">Chatbot</span>
+            
+              <span class="tag neumorphism-card">NLP</span>
+            
+              <span class="tag neumorphism-card">Interpretability</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Do Language Models Learn Causal Representations of Space?</h3>
+        </div>
+        <p class="project-desc">Recent work from <a class='highlight-link' href='https://arxiv.org/abs/2310.02207' target='_blank' rel='noreferrer'>Gurnee et al.</a> show that the activations of neural language models have high correlation with the spatial and temporal properties of their inputs. However, the work didn't estabilish a causal link between two. Our experiments, filling a part of this blank, show that editing LLM's spatial representations can improve the model's performance on a simple spatial task.<br> <br> <img src='assets/paper/gpt_logit_change.png' alt='language_logit_change' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2312.16257' target='_blank' rel='noreferrer'> Paper Preprint </a></p>
+        
+          <a class="highlight-link" href="https://github.com/jenniferz99/causal-spatial-representations" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">preprint</span>
+            
+              <span class="tag neumorphism-card">NLP</span>
+            
+              <span class="tag neumorphism-card">Interpretability</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Probe & Control the 3D Representations in Diffusion Model</h3>
+        </div>
+        <p class="project-desc">Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Youtube Video</a> (55K Views)</p>
+        
+          <a class="highlight-link" href="https://yc015.github.io/scene-representation-diffusion-model/" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">NeurIPS 2023</span>
+            
+              <span class="tag neumorphism-card">CV</span>
+            
+              <span class="tag neumorphism-card">Interpretability</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Visualize Attention Flow inside Large Transformer Models</h3>
+        </div>
+        <p class="project-desc">Wonder how attention flows inside your Vision Transformer? What visual patterns are recognize by machine's attention? Does machine's attention resemble human's visual cognition? Collaboration with Catherine Yeh. My main contribution is the visualization of learnt attention in vision transformer models. <br> <br> <img src='assets/img/attn_viz.gif' alt='attention_viz' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2305.03210' target='_blank' rel='noreferrer'> Paper</a></p>
+        
+          <a class="highlight-link" href="http://attentionviz.com/" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">IEEE VIS 2023</span>
+            
+              <span class="tag neumorphism-card">Visualization</span>
+            
+              <span class="tag neumorphism-card">Interpretability</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>KALMUS: tools for color analysis of films</h3>
+        </div>
+        <p class="project-desc">KALMUS is a Python package for the computational analysis of colors in films. It provides quantitative tools to study and compare the use of film color. This package serves two purposes: (1) various ways to measure, calculate and compare a film’s colors and (2) various ways to visualize a film’s color. <br> <br> <img src='assets/img/mission_barcode_Foreground_avg.png' alt='kalmus_img' height='100vh' style='max-width: -webkit-fill-available;'> <img src='assets/img/kalmus_color_t.png' alt='kalmus_img' height='100vh' style='max-width: -webkit-fill-available;'><br><img src='assets/img/kalmus_gui.png' alt='kalmus_img' style='width:-webkit-fill-available;height: -webkit-fill-available;'></p>
+        
+          <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">JOSS 2021</span>
+            
+              <span class="tag neumorphism-card">Visualization</span>
+            
+              <span class="tag neumorphism-card">Digital Humanities</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Fully Automated Full-Video Multi-heartbeat Echocardiography Segmentation</h3>
+        </div>
+        <p class="project-desc">We aim to further improve the accuracy and clinical applicability of echocardiography video segmentation by extending the analysis from half-heartbeat (End-diastolic to End-systolic phases) to multi-heartbeat video. We proposed a sliding window data augmentation technique for efficiently learning moition tracking and semantic segmentation from sparesely annotated echo videos (only 2 annotations per video).
+<a class='highlight-link' href='https://spie.org/medical-imaging/presentation/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/12032-29' target='_blank' rel='noreferrer'> Paper </a>. <br> <br> <img src='assets/img/Full_Video_Segmentation_with_Volume_Trend.gif' alt='fully_automated_video_segmentation' height='240vh'></p>
+        
+          <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/chenSPIE22_preprint.pdf" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">SPIE Medical Imaging 2022</span>
+            
+              <span class="tag neumorphism-card">CV</span>
+            
+              <span class="tag neumorphism-card">Medical Imaging</span>
+            
+          </div>
+        
+      </div>
+    
+      <div class="project neumorphism-card" data-aos="zoom-in-down">
+        <div class="name-link-wrapper">
+          <h3>Joint Motion Tracking and Video Segmentation of Echocardiography</h3>
+        </div>
+        <p class="project-desc">We assessed a 3D-UNet's performance on jointly segmenting sparsely annotated half-heartbeat echocardiography videos and estimating cardiac structure's motions. The 3D-UNet was trained on CAMUS dataset, and we evaluated its generalizability on Stanford's EchoNet dataset. Comparing with traditional frame-based segmentation method, our results show that the joint learning of motion tracking and segmentation enhances the segmentation performance on video data. The video model also has better generalizability on unseen dataset than frame-based model. <br> <br> <img src='assets/img/4CH_Segmentation.gif' alt='4ch_video_segmentation' height='200vh'></p>
+        
+          <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf" target="_blank" rel="noreferrer">
+            Demo
+          </a>
+        
+        
+          <div class="tag-wrapper">
+            
+              <span class="tag neumorphism-card">SPIE Medical Imaging 2021</span>
+            
+              <span class="tag neumorphism-card">CV</span>
+            
+              <span class="tag neumorphism-card">Medical Imaging</span>
+            
+          </div>
+        
+      </div>
+    
+  </div>
+
+
+
+  <h1 class="title">Project Repos <span style="font-weight:normal">&#128187</span></h1>
+  
+
+  
+
+  <div class="projects-wrapper">
+    
+      
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>TalkTuner-chatbot-llm-dashboard</h3>
+            <div class="links">
+              
+                <a href="https://github.com/yc015/TalkTuner-chatbot-llm-dashboard/stargazers" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                    </path>
+                  </svg>16
+                </a>
+                
+                
+                <a href="https://github.com/yc015/TalkTuner-chatbot-llm-dashboard/network/members" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                    </path>
+                  </svg>4
+                </a>
+              
+            </div>
+          </div>
+          <p class="project-desc">Designing a Dashboard for Transparency and Control of Conversational AI, https://arxiv.org/abs/2406.07882</p>
+          
+            <a class="highlight-link" href="https://yc015.github.io/TalkTuner-a-dashboard-ui-for-chatbot-llm/" target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          
+          <a class="highlight-link" href="https://github.com/yc015/TalkTuner-chatbot-llm-dashboard" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">interface-design</span>
+              
+                <span class="tag neumorphism-card">interpretability</span>
+              
+                <span class="tag neumorphism-card">large-language-models</span>
+              
+            </div>
+          
+        </div>
+      
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>scene-representation-diffusion-model</h3>
+            <div class="links">
+              
+                <a href="https://github.com/yc015/scene-representation-diffusion-model/stargazers" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                    </path>
+                  </svg>35
+                </a>
+                
+                
+                <a href="https://github.com/yc015/scene-representation-diffusion-model/network/members" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                    </path>
+                  </svg>4
+                </a>
+              
+            </div>
+          </div>
+          <p class="project-desc">Linear probe found representations of scene attributes in a text-to-image diffusion model</p>
+          
+            <a class="highlight-link" href="https://yc015.github.io/scene-representation-diffusion-model/" target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          
+          <a class="highlight-link" href="https://github.com/yc015/scene-representation-diffusion-model" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">explainability</span>
+              
+                <span class="tag neumorphism-card">image-editing</span>
+              
+                <span class="tag neumorphism-card">interpretability</span>
+              
+                <span class="tag neumorphism-card">scene</span>
+              
+                <span class="tag neumorphism-card">stable-diffusion</span>
+              
+            </div>
+          
+        </div>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        <div class="project neumorphism-card" data-aos="zoom-in-down">
+          <div class="name-link-wrapper">
+            <h3>fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking</h3>
+            <div class="links">
+              
+                <a href="https://github.com/yc015/fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/stargazers" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                    </path>
+                  </svg>6
+                </a>
+                
+                
+                <a href="https://github.com/yc015/fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/network/members" class="project-stars-forks">
+                  <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                    </path>
+                  </svg>3
+                </a>
+              
+            </div>
+          </div>
+          <p class="project-desc">The implementation of CLAS-FV described in "Fully automated multi-heartbeat echocardiography video segmentation and motion tracking".</p>
+          
+            <a class="highlight-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12032/120320R/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/10.1117/12.2607871.short?SSO=1" target="_blank" rel="noreferrer">
+              Demo
+            </a>
+          
+          <a class="highlight-link" href="https://github.com/yc015/fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking" target="_blank" rel="noreferrer">
+            Github
+          </a>
+          
+            <div class="tag-wrapper">
+              
+                <span class="tag neumorphism-card">computer-vision</span>
+              
+                <span class="tag neumorphism-card">deep-learning</span>
+              
+                <span class="tag neumorphism-card">echocardiography</span>
+              
+            </div>
+          
+        </div>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    <div class="project neumorphism-card" data-aos="zoom-in-down">
+      <div class="name-link-wrapper">
+        <h3>KALMUS: Color Toolkit</h3>
+        <div class="links">
+            <a href="https://github.com/KALMUS-Color-Toolkit/KALMUS/stargazers" class="project-stars-forks">
+              <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                <path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z">
+                </path>
+              </svg>17
+            </a>
+            <a href="https://github.com/KALMUS-Color-Toolkit/KALMUS/network/members" class="project-stars-forks">
+              <svg viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z">
+                </path>
+              </svg>4
+            </a>
+        </div>
+      </div>
+      <p class="project-desc">KALMUS Color Toolkit for color analysis and visualization in film studies.</p>
+        <a class="highlight-link" href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer">
+          Demo
+        </a>
+      <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer">
+        Github
+      </a>
+        <div class="tag-wrapper">
+            <span class="tag neumorphism-card">Digital Humanities</span>
+            <span class="tag neumorphism-card">Film Studies</span>
+        </div>
+    </div>
+  </div>
+
+
+      
+
+
+
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Skills <span style="font-weight:normal">&#129338</span></h1>
+
+<div id="skills">
+  <input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label>
+  <input type="radio" id="language" name="filter" />
+  <label class="filter-button neumorphism-button" for="language">Languages</label>
+  <input type="radio" id="framework" name="filter" />
+  <label class="filter-button neumorphism-button" for="framework">Libraries</label>
+  <input type="radio" id="tool" name="filter" />
+  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+
+  
+    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
+      Python
+    </div>
+  
+    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
+      Java
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      Haskell
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Ruby
+    </div>
+  
+    <div skill-type="language" skill-weight="3" data-aos="zoom-in">
+      C++
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      LaTeX
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      MATLAB
+    </div>
+  
+    <div skill-type="language" skill-weight="1" data-aos="zoom-in">
+      Bash
+    </div>
+  
+    <div skill-type="language" skill-weight="2" data-aos="zoom-in">
+      SQLite
+    </div>
+  
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      Android
+    </div>
+  
+    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
+      PyTorch
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      Keras
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      Matplotlib
+    </div>
+  
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
+      seaborn
+    </div>
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      Scikit-Learn
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Scikit-Image
+    </div>
+  
+    <div skill-type="framework" skill-weight="5" data-aos="zoom-in">
+      NumPy
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Pandas
+    </div>
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      OpenCV
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      SciPy
+    </div>
+  
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
+      PIL
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      JavaFX
+    </div>
+  
+    <div skill-type="framework" skill-weight="1" data-aos="zoom-in">
+      pytest
+    </div>
+  
+  
+    <div skill-type="tool" skill-weight="4" data-aos="zoom-in">
+      Git
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Scrum
+    </div>
+  
+    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+      GitHub CI/CD
+    </div>
+  
+    <div skill-type="tool" skill-weight="1" data-aos="zoom-in">
+      Codecov
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      PyCharm
+    </div>
+  
+    <div skill-type="tool" skill-weight="2" data-aos="zoom-in">
+      Intellij
+    </div>
+  
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">My journey so far... <span style="font-weight:normal">&#128760</span></h1>
+<p class="subtitle">
+  For more information, have a look at my
+  <a class="highlight-link" href="https://docs.google.com/uc?export=download&id=1RRE5ivlmyc3-NM1Wuw-nvpMir4aZWjV9" target="_blank" rel="noreferrer">
+    curriculum vitae
+  </a>.
+</p>
+
+<div class="timeline-wrapper">
+  <ul class="timeline">
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span> 
+              <span class="flag neumorphism-button" data-aos="zoom-in-right" style="margin-left: 8px;">
+                <a href="https://harvardresearch.org/about-ncrc" target="_blank" rel="noreferrer">
+                  <span>Judge for NCRC 2024</span>
+                </a>
+              </span> 
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Jan 2024</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              <p style='text-align:left;'> Served as the judge for National Collegiate Research Conference 2024 at Harvard. Reviewed and oversaw 8 undergraduate student projects. </p>
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Harvard</span>
+                  
+                    <span class="tag neumorphism-card">NCRC</span>
+                  
+                    <span class="tag neumorphism-card">Judge</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left" style="margin-right: 8px;">
+                <a href="https://insight.seas.harvard.edu/" target="_blank" rel="noreferrer">
+                  <span>Joining Harvard SEAS</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Aug 2022</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              <p style='text-align:left;'> I am now a new member of Insight + Interaction Lab at Harvard SEAS. It's so exciting to work with everyone here! Check out our group: <a class='highlight-link' href='https://insight.seas.harvard.edu/' target='_blank' rel='noreferrer'> Insight + Interaction Lab</a>. </p>
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Harvard</span>
+                  
+                    <span class="tag neumorphism-card">Ph.D.</span>
+                  
+                    <span class="tag neumorphism-card">Insight + Interaction</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span> 
+              <span class="flag neumorphism-button" data-aos="zoom-in-right" style="margin-left: 8px;">
+                <a href="https://www.bucknell.edu/life-bucknell/commencement/class-2022-commencement" target="_blank" rel="noreferrer">
+                  <span>Graduated from Bucknell</span>
+                </a>
+              </span> 
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">May 2022</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              <p style='text-align:left;'> I graduated from Bucknell with Bachelor degree in Computer Science & Engineering and Summa Cum Laude distinction. I am pleased to receive the Bucknell Prize in Computer Science and Engineering (1 per class year), University Prize for Men, and President’s Award for Distinguished Academic Achievement. </p> <p style='text-align:left;'>  In this fall, I will join the Harvard SEAS to pursue a Doctorate degree in Computer Science. It's my honor to be mentored by Prof. Fernanda Viegas and Prof. Martin Wattenberg (<a class='highlight-link' href='https://insight.seas.harvard.edu/' target='_blank' rel='noreferrer'> Insight + Interaction Lab</a>). </p>
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Bucknell</span>
+                  
+                    <span class="tag neumorphism-card">Undergraduate</span>
+                  
+                    <span class="tag neumorphism-card">Graduation</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left" style="margin-right: 8px;">
+                <a href="https://spie.org/MI22/conferencedetails/medical-image-processing?enableBackToBrowse=true" target="_blank" rel="noreferrer">
+                  <span>SPIE Medical Imaging 2022</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Apr. 2022</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              <p style="text-align:left;"> Our paper, "Fully automated multi-heartbeat echocardiography video segmentation and motion tracking", has been published at the SPIE Medical Imaging 2022: Image Processing Conference. </p> <p style="text-align:left;">  You can find the manuscript and recorded presentation here: <a class="highlight-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12032/120320R/Fully-automated-multi-heartbeat-echocardiography-video-segmentation-and-motion-tracking/10.1117/12.2607871.full?SSO=1" target="_blank" rel="noreferrer"> link.</a> </p>
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Published</span>
+                  
+                    <span class="tag neumorphism-card">SPIE Medical Imaging</span>
+                  
+                    <span class="tag neumorphism-card">Oral Presentation</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span> 
+              <span class="flag neumorphism-button" data-aos="zoom-in-right" style="margin-left: 8px;">
+                <a href="https://spie.org/MI22/conferencedetails/medical-image-processing?enableBackToBrowse=true" target="_blank" rel="noreferrer">
+                  <span>SPIE Medical Imaging 2022</span>
+                </a>
+              </span> 
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Oct. 2021</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              Our work, "Fully automated multi-heartbeat echocardiography video segmentation and motion tracking", has accepted for an oral presentation at SPIE Medical Imaging 2022: Image Processing Conference.
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Accepted</span>
+                  
+                    <span class="tag neumorphism-card">SPIE Medical Imaging</span>
+                  
+                    <span class="tag neumorphism-card">Oral Presentation</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left" style="margin-right: 8px;">
+                <a href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE22/SPIE22.html" target="_blank" rel="noreferrer">
+                  <span>Bucknell University</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">June 2021 - Present</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              HTIP research fellow for fully automated multi-heartbeat echocardiography video segmentation project
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">PyTorch</span>
+                  
+                    <span class="tag neumorphism-card">Scikit-Learn</span>
+                  
+                    <span class="tag neumorphism-card">Matplotlib</span>
+                  
+                    <span class="tag neumorphism-card">Python</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span> 
+              <span class="flag neumorphism-button" data-aos="zoom-in-right" style="margin-left: 8px;">
+                <a href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer">
+                  <span>Journal of Open Source Software</span>
+                </a>
+              </span> 
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">May 2021</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              <p style="text-align:left;"> Our paper, "KALMUS: tools for color analysis of films", has been published on the Journal of Open Source Software! Our manuscript is open access, and you can find it here: <a class="highlight-link" href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer"> link.</a> </p> <p style="text-align:left;"> The GitHub repo of associated Python package, KALMUS, is here: <a class="highlight-link" href="https://github.com/KALMUS-Color-Toolkit/KALMUS" target="_blank" rel="noreferrer"> link.</a> </p> <p style="text-align:left;"> For installation instruction and detailed usage guide, please refer to the KALMUS <a class="highlight-link" href="https://kalmus-color-toolkit.github.io/KALMUS/" target="_blank" rel="noreferrer">documentation page.</a> </p>
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Published</span>
+                  
+                    <span class="tag neumorphism-card">JOSS</span>
+                  
+                    <span class="tag neumorphism-card">Open Access</span>
+                  
+                    <span class="tag neumorphism-card">KALMUS</span>
+                  
+                    <span class="tag neumorphism-card">Python Package</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left" style="margin-right: 8px;">
+                <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115961O/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1" target="_blank" rel="noreferrer">
+                  <span>SPIE Medical Imaging 2021</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Feb. 2020</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              <p style="text-align:left;"> Our paper, "Assessing the generalizability of temporally-coherent echocardiography video segmentation", has been published at SPIE Medical Imaging: Image processing 2021 conference! </p> <p style="text-align:left;">  You can find the manuscript here: <a class="highlight-link" href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11596/115961O/Assessing-the-generalizability-of-temporally-coherent-echocardiography-video-segmentation/10.1117/12.2580874.full?SSO=1" target="_blank" rel="noreferrer"> link.</a> <br> The presentation slides are available here: <a class="highlight-link" href="https://drive.google.com/file/d/18_zPcgfoXvp0lLeViPji-AzFnFDlTWJ5/view?usp=sharing" target="_blank" rel="noreferrer"> link.</a> </p>
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Published</span>
+                  
+                    <span class="tag neumorphism-card">SPIE</span>
+                  
+                    <span class="tag neumorphism-card">Oral Presentation</span>
+                  
+                    <span class="tag neumorphism-card">Ei Compendex</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span> 
+              <span class="flag neumorphism-button" data-aos="zoom-in-right" style="margin-left: 8px;">
+                <a href="https://spie.org/conferences-and-exhibitions/medical-imaging" target="_blank" rel="noreferrer">
+                  <span>SPIE Medical Imaging 2021</span>
+                </a>
+              </span> 
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">Oct. 2020</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              <p> Our paper, "Assessing the generalizability of temporally-coherent echocardiography video segmentation", has been accepted for an oral presentation by SPIE Medical Imaging: Image processing 2021 conference!</p> <p>The preprint of paper is available here: <a class="highlight-link" href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/chenSPIE21_preprint.pdf" target="_blank" rel="noreferrer"> link.</a> </p>
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Accepted</span>
+                  
+                    <span class="tag neumorphism-card">SPIE</span>
+                  
+                    <span class="tag neumorphism-card">Oral Presentation</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left" style="margin-right: 8px;">
+                <a href="https://www.bucknell.edu/life-bucknell/housing-services/residential-education" target="_blank" rel="noreferrer">
+                  <span>Bucknell University, Res Ed</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Aug. 2020 - Dec. 2020</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Residential Advisor
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">Leadership</span>
+                  
+                    <span class="tag neumorphism-card">Communication</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span> 
+              <span class="flag neumorphism-button" data-aos="zoom-in-right" style="margin-left: 8px;">
+                <a href="http://eg.bucknell.edu/~jvs008/research/cardiac/SPIE21/SPIE21.html" target="_blank" rel="noreferrer">
+                  <span>Bucknell University</span>
+                </a>
+              </span> 
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">June 2020 - May 2021</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              HTIP research fellow for joint motion tracking & echocardiography segmentation project.
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">PyTorch</span>
+                  
+                    <span class="tag neumorphism-card">Scikit-Learn</span>
+                  
+                    <span class="tag neumorphism-card">Matplotlib</span>
+                  
+                    <span class="tag neumorphism-card">Python</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left" style="margin-right: 8px;">
+                <a href="https://joss.theoj.org/papers/10.21105/joss.03156" target="_blank" rel="noreferrer">
+                  <span>Bucknell University</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">Nov. 2019 - May 2021</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Mellon academic year research fellow for Film Color Analysis. Built a tool, KALMUS, for quantitative color analysis in film production.
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">OpenCV</span>
+                  
+                    <span class="tag neumorphism-card">Scikit-Image</span>
+                  
+                    <span class="tag neumorphism-card">Matplotlib</span>
+                  
+                    <span class="tag neumorphism-card">GitHub CI</span>
+                  
+                    <span class="tag neumorphism-card">Codecov</span>
+                  
+                    <span class="tag neumorphism-card">Python</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span> 
+              <span class="flag neumorphism-button" data-aos="zoom-in-right" style="margin-left: 8px;">
+                <a href="https://www.bucknell.edu/" target="_blank" rel="noreferrer">
+                  <span>Bucknell University</span>
+                </a>
+              </span> 
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">2018 - 2022</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              B.S. Computer Science and Engineering
+              
+                <div class="tag-wrapper">
+                  
+                    <span class="tag neumorphism-card">C++</span>
+                  
+                    <span class="tag neumorphism-card">Haskell</span>
+                  
+                    <span class="tag neumorphism-card">Andriod</span>
+                  
+                    <span class="tag neumorphism-card">Java</span>
+                  
+                    <span class="tag neumorphism-card">JavaFX</span>
+                  
+                </div>
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+  </ul>
+</div>
+
+      </section>
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Contact <span style="font-weight:normal"><a target="_blank" rel="noreferrer" href="mailto:yidachen@g.harvard.edu">&#128234</a></span></h1>
+<p class="subtitle">Thank you so much for visiting my website!</p>
+
+<div class="contact-icons">
+  
+  <a class="social-link red" aria-label="My E-Mail" href="mailto:yidachen@g.harvard.edu">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+    href="https://github.com/yc015">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
+    href="https://www.linkedin.com/in/edward-yida-chen">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link twitter" aria-label="My Google Scholar" target="_blank" rel="noreferrer"
+    href="https://www.semanticscholar.org/author/Yida-Chen/16099092">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#scholar-cap-icon"></use>
+      </svg>
+    </div>
+  </a>
+  <a class="social-link resume" aria-label="My CV" target="_blank" rel="noreferrer"
+    href="https://drive.google.com/file/d/15Hh-OD7eI35lO9Xoa4356Gl2-nnr8GAB/view?usp=sharing">
+    <div class="CV">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#paper-profile-icon"></use>
+      </svg>
+    </div>
+  </a>
+</div>
+
+    </section>
+    
+  </div>
+  <footer class="footer">
+  <p>
+    &copy; Yida Chen, 2024
+  </p>
+  <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p>
+  <p>
+    Theme is adapted from
+    <a class="highlight-link" href="https://github.com/longpdo" target="_blank" rel="noreferrer">
+      Long Do
+    </a>
+  </p>
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "UA-197951695-2", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
+</body>
+</html>
