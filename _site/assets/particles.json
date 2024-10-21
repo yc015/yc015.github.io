@@ -1,0 +1,86 @@
+{
+  "particles": {
+    "number": {
+      "value": 6.5,
+      "density": {
+        "enable": true,
+        "value_area": 900
+      }
+    },
+    "color": {
+      "value": ["#FB88B4"]
+    },
+    "shape": {
+      "type": "image",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      
+      "options": {
+        "images": [
+          {
+            "src": "assets/img/sun-emoji.png",
+            "width": 100,
+            "height": 100
+          },
+         
+          {
+            "src": "assets/img/lulu_yc.png",
+            "width": 200,
+            "height": 200
+          }
+        ]
+      }
+    },
+    "opacity": {
+      "value": 0.4,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.2,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 18,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 4,
+        "size_min": 7,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false
+    },
+    "move": {
+      "enable": true,
+      "speed": 1.5,
+      "direction": "bottom",
+      "random": false,
+      "straight": true,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 1200,
+        "rotateY": 600
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "resize": true
+    },
+    "modes": {
+        "push": {
+            "quantity": 3
+        }
+    },
+    "retina_detect": true
+  }
+}
