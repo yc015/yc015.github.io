@@ -40,7 +40,7 @@
     - tag: Interpretability
 
 - name: Probe & Control the 3D Representations in Diffusion Model
-  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/diffusion_control.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Youtube Video</a> (55K Views)"
+  descr: "Does the 2D image generative model has an internal model of 3D geometry? Can a 2D neural network see beyond the X-Y dimension of a matrix of pixels? Our project found controllable representations of 3D geometry inside diffusion model. <br> <br> <img src='assets/img/southern_container_plants.gif' alt='diffusion_model' style='width:-webkit-fill-available;height: -webkit-fill-available'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2306.05720.pdf' target='_blank' rel='noreferrer'> Paper </a><br><br><a class='highlight-link' href='https://www.youtube.com/watch?v=YytxbKigcXA' target='_blank' rel='noreferrer'> Youtube Video</a> (55K Views)"
   demo: https://yc015.github.io/scene-representation-diffusion-model/
   tags:
     - tag: NeurIPS 2023
