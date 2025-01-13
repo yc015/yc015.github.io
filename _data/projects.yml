@@ -14,8 +14,8 @@
 #     - tag: Node
 
 - name: "ChatGPT Doesn't Trust Chargers Fans: Guardrail Sensitivity in Context"
-  descr: "Not all users are turned away by chatbots for making suspicious requests. Your identity plays a key role when chatbot decides whether to refuse your potentially problematic inquiry. <br><br>Our new study shows that the ChatGPT guardrails sensitive knowledge to users with different gender, racial, and political demographics. In particular, younger, female, and Asian-American users are more likely to trigger the refusal from the ChatGPT when querying sensitive information. We proposed a new evaluation framework to identify such bias in the chatbot's refusal behaviors. <br> <br> <img src='assets/img/guardrail-sensitivity-experimental-setup.png' alt='guardrail sensitivity' style='width:-webkit-fill-available; height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://arxiv.org/abs/2407.06866' target='_blank' rel='noreferrer'> Paper Preprint (to appear at EMNLP 2024 Main) </a>"
-  demo: https://arxiv.org/abs/2407.06866
+  descr: "Not all users are turned away by chatbots for making suspicious requests. Your identity plays a key role when chatbot decides whether to refuse your potentially problematic inquiry. <br><br>Our new study shows that the ChatGPT guardrails sensitive knowledge to users with different gender, racial, and political demographics. In particular, younger, female, and Asian-American users are more likely to trigger the refusal from the ChatGPT when querying sensitive information. We proposed a new evaluation framework to identify such bias in the chatbot's refusal behaviors. <br> <br> <img src='assets/img/guardrail-sensitivity-experimental-setup.png' alt='guardrail sensitivity' style='width:-webkit-fill-available; height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://aclanthology.org/2024.emnlp-main.363/' target='_blank' rel='noreferrer'> Paper </a>"
+  demo: https://aclanthology.org/2024.emnlp-main.363/
   tags:
     - tag: EMNLP 2024 Main
     - tag: Chatbot
