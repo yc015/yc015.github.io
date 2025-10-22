@@ -16,18 +16,19 @@
   descr: "Current comparison of large reasoning models (LRMs) often stop at their macro-level characteristics, such as their task accuracy or thinking length. Do different LRMs also reason differently? We develop an automated method that characterize the distinguishing reasoning styles of 12 open-source LRMs in science, math, and coding domains. <br> <br> <img src='assets/img/thoughts_characterization.png' alt='thoughts_characterization' style='width:-webkit-fill-available; height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://www.arxiv.org/abs/2509.24147' target='_blank' rel='noreferrer'> Paper Preprint </a>"
   demo: https://www.arxiv.org/abs/2509.24147
   tags:
-    - tag: EMNLP 2024 Main
-    - tag: Chatbot
-    - tag: Human-AI Interaction
-    - tag: Bias
-- name: "ChatGPT Doesn't Trust Chargers Fans: Guardrail Sensitivity in Context"
-  descr: "Not all users are turned away by chatbots for making suspicious requests. Your identity plays a key role when chatbot decides whether to refuse your potentially problematic inquiry. <br><br>Our new study shows that the ChatGPT guardrails sensitive knowledge to users with different gender, racial, and political demographics. In particular, younger, female, and Asian-American users are more likely to trigger the refusal from the ChatGPT when querying sensitive information. We proposed a new evaluation framework to identify such bias in the chatbot's refusal behaviors. <br> <br> <img src='assets/img/chargers.png' alt='guardrail sensitivity' style='width:-webkit-fill-available; height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://aclanthology.org/2024.emnlp-main.363/' target='_blank' rel='noreferrer'> Paper </a>"
-  demo: https://aclanthology.org/2024.emnlp-main.363/
-  tags:
     - tag: Paper Preprint
     - tag: Meta
     - tag: Model Behavior Analysis
     - tag: NLP
+    
+- name: "ChatGPT Doesn't Trust Chargers Fans: Guardrail Sensitivity in Context"
+  descr: "Not all users are turned away by chatbots for making suspicious requests. Your identity plays a key role when chatbot decides whether to refuse your potentially problematic inquiry. <br><br>Our new study shows that the ChatGPT guardrails sensitive knowledge to users with different gender, racial, and political demographics. In particular, younger, female, and Asian-American users are more likely to trigger the refusal from the ChatGPT when querying sensitive information. We proposed a new evaluation framework to identify such bias in the chatbot's refusal behaviors. <br> <br> <img src='assets/img/chargers.png' alt='guardrail sensitivity' style='width:-webkit-fill-available; height: -webkit-fill-available;'> <br> <a class='highlight-link' href='https://aclanthology.org/2024.emnlp-main.363/' target='_blank' rel='noreferrer'> Paper </a>"
+  demo: https://aclanthology.org/2024.emnlp-main.363/
+  tags:
+    - tag: EMNLP 2024 Main
+    - tag: Chatbot
+    - tag: Human-AI Interaction
+    - tag: Bias
 
 - name: Designing a Dashboard for Transparency and Control of Conversational AI
   descr: "Have you ever thought about if chatbot LLMs are internally modeling your profile? If they are, how might this model of you influence the answers they give to your questions? <br> <br> Our experiments provide evidence that a conversational AI is internally profling its user during the chat. We design an end-to-end prototype—TalkTuner—that expose this internal user model to the users. User study shows this new chatbot UI design impacts the user's trust in AIs and expose biases of LLM systems. <br> <br> <img src='assets/img/dashboard_overview.png' alt='dashboard-overview' style='width:-webkit-fill-available;height: -webkit-fill-available;'> <br><a class='highlight-link' href='https://arxiv.org/abs/2406.07882' target='_blank' rel='noreferrer'> Paper Preprint </a> <br> <br><a class='highlight-link' href='https://github.com/yc015/yc015.github.io/blob/master/assets/paper/ICML_2025_AIW_What_kind_of_user_are_you_uncovering_user_models_in_LLM_chatbots.pdf' target='_blank' rel='noreferrer'>NeurIPS 2025 AIW Workshop</a>"
